@@ -129,4 +129,9 @@ public class InMemoryBookRepository implements BookRepository{
 		
 		return booksByGenre;
 	}
+
+	public void addBook(Book book) {
+		// TODO Auto-generated method stub
+		this.listOfBooks.add(book);
+	}
 }

@@ -37,4 +37,8 @@ public class BookServiceImpl implements BookService{
 		return bookRepository.getBooksByFilter(filterParams);
 	}
 
+	public void addBook(Book book) {
+		// TODO Auto-generated method stub
+		bookRepository.addBook(book);
+	}
 }
