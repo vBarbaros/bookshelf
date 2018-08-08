@@ -2,8 +2,13 @@ package com.vbarbar.bookshelf.domain.repository.impl;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
 import org.springframework.stereotype.Repository;
+
 import com.vbarbar.bookshelf.domain.Book;
 import com.vbarbar.bookshelf.domain.repository.BookRepository;
 
@@ -25,7 +30,8 @@ public class InMemoryBookRepository implements BookRepository{
 				+ "detective character Kurt Wallander and in the 2000s with Stieg Larsson's Millennium "
 				+ "trilogy featuring Lisbeth Salander.The basic concept has, by extension, given rise to "
 				+ "the entire Scandinavian noir scene.");
-		bookOne.setGenre("Scandinavian Noir Detective");
+		bookOne.setGenre("Detective");
+		bookOne.setEditor("Edition House A");
 		bookOne.setUnitsInStock(1000);
 		
 		Book bookTwo = new Book("B0002","Millennium", new BigDecimal(200));
@@ -38,7 +44,8 @@ public class InMemoryBookRepository implements BookRepository{
 				+ "In July 2010 the series made Larsson the first author to sell a million electronic copies "
 				+ "of his work on the Amazon Kindle. Sales reached 75 million copies throughout fifty "
 				+ "countries by December 2013, and 80 million by March 2015.");
-		bookTwo.setGenre("Scandinavian Noir Detective");
+		bookTwo.setGenre("Detective");
+		bookTwo.setEditor("Edition House B");
 		bookTwo.setUnitsInStock(2000);
 		
 		Book bookThree = new Book("B0003","Bourne", new BigDecimal(300));
@@ -47,7 +54,8 @@ public class InMemoryBookRepository implements BookRepository{
 				+ "The novel was the basis for the scripts of the 1988 television movie of the same "
 				+ "name starring Richard Chamberlain and Jaclyn Smith, and the 2002 film of the same "
 				+ "name, starring Matt Damon, Franka Potente and Chris Cooper.");
-		bookThree.setGenre("Spy Fiction Thriller");
+		bookThree.setGenre("Thriller");
+		bookThree.setEditor("Edition House C");
 		bookThree.setUnitsInStock(3000);
 		
 		this.listOfBooks.add(bookOne);
@@ -75,5 +83,50 @@ public class InMemoryBookRepository implements BookRepository{
 		}
 		
 		return bookById;
+	}
+
+	public List<Book> getBooksByGenre(String genre) {
+		// TODO Auto-generated method stub
+		List<Book> booksByGenre = new ArrayList<Book>();
+		
+		for(Book book : listOfBooks) {
+			if(genre.equalsIgnoreCase(book.getGenre())) {
+				booksByGenre.add(book);
+			}
+		}
+		
+		return booksByGenre;
+	}
+
+	public Set<Book> getBooksByFilter(Map<String, List<String>> filterParams) {
+		// TODO Auto-generated method stub
+		Set<Book> booksByEditor = new HashSet<Book>();
+		Set<Book> booksByGenre = new HashSet<Book>();
+		
+		Set<String> criteria = filterParams.keySet();
+		
+		if(criteria.contains("editor")) {
+			for(String editorName : filterParams.get("editor")) {
+				for(Book book : this.listOfBooks) {
+					if(editorName.equalsIgnoreCase(book.getEditor())) {
+						booksByEditor.add(book);
+					}
+				}
+			}
+		}
+		
+		if(criteria.contains("genre")) {
+			for(String genreName : filterParams.get("genre")) {
+				for(Book book : this.listOfBooks) {
+					if(genreName.equalsIgnoreCase(book.getGenre())) {
+						booksByGenre.add(book);
+					}
+				}
+			}
+		}
+		
+		booksByGenre.retainAll(booksByEditor);
+		
+		return booksByGenre;
 	}
 }

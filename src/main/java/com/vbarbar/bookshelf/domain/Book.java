@@ -10,6 +10,7 @@ public class Book {
     private BigDecimal pricePerUnit;
     private String review;
     private String genre;
+    private String editor;
     private long unitsInStock;
     private long unitsInOrder;
     private boolean presentEBook;
@@ -135,5 +136,13 @@ public class Book {
 
 	public void setPresentEBook(boolean presentEBook) {
 		this.presentEBook = presentEBook;
+	}
+
+	public String getEditor() {
+		return editor;
+	}
+
+	public void setEditor(String editor) {
+		this.editor = editor;
 	}
 }
