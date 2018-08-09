@@ -21,7 +21,7 @@
 		</div>
 	</section>
 	<section class="container">
-		<form:form  modelAttribute="newBook" class="form-horizontal">
+		<form:form  modelAttribute="newBook" class="form-horizontal" enctype="multipart/form-data">
 			<fieldset>
 				<legend>Add new book</legend>
 
@@ -84,6 +84,18 @@
 					<div class="col-lg-10">
 						<form:radiobutton path="condition" value="New" />New 
 						<form:radiobutton path="condition" value="Old" />Used
+					</div>
+				</div>
+				
+				<div class="form-group">
+					<label class="control-label col-lg-2" for="bookImage">
+						<spring:message code="addBook.form.bookImage.label"/>
+					</label>
+					<div class="col-lg-10">
+						<form:input id="bookImage" 
+									path="bookImage"
+									type="file" 
+									class="form:input-large"/>
 					</div>
 				</div>
 				

@@ -22,6 +22,7 @@
       	
         <div class="col-sm-6 col-md-6" style="padding-bottom: 15px">
           <div class="thumbnail">
+            <img src="<c:url value="/resource/images/${book.bookId}.png"></c:url>" alt="image" style = "width:100%"/>
             <div class="caption">
               <h3>${book.bookTitle}</h3>
               <p>${book.genre}</p>

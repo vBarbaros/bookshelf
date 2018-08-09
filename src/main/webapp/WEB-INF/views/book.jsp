@@ -17,6 +17,9 @@
     <section class="container">
       <div class="row">
         <div class="col-md-5">
+		  <img src="<c:url value="/resource/images/${book.bookId}.png"></c:url>" alt="image"  style = "width:100%"/>
+		</div>
+        <div class="col-md-5">
           <h3>${book.bookTitle}</h3>
           <p>${book.review}</p>
           <p><strong>Item Code : </strong><span class="label label-warning">${book.bookId}</span></p> 

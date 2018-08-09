@@ -2,6 +2,13 @@ package com.vbarbar.bookshelf.domain;
 
 import java.math.BigDecimal;
 
+import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.XmlTransient;
+
+import org.codehaus.jackson.annotate.JsonIgnore;
+import org.springframework.web.multipart.MultipartFile;
+
+@XmlRootElement
 public class Book {
 
 	private String bookId;
@@ -15,6 +22,9 @@ public class Book {
     private long unitsInOrder;
     private boolean presentEBook;
     private String condition;
+    
+    @JsonIgnore
+    private MultipartFile bookImage;
     
     
     public Book() {
@@ -144,5 +154,14 @@ public class Book {
 
 	public void setEditor(String editor) {
 		this.editor = editor;
+	}
+
+	@XmlTransient
+	public MultipartFile getBookImage() {
+		return bookImage;
+	}
+
+	public void setBookImage(MultipartFile bookImage) {
+		this.bookImage = bookImage;
 	}
 }

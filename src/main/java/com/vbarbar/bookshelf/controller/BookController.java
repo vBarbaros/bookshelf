@@ -1,7 +1,10 @@
 package com.vbarbar.bookshelf.controller;
 
+import java.io.File;
 import java.util.List;
 import java.util.Map;
+
+import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -16,6 +19,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.multipart.MultipartFile;
 
 import com.vbarbar.bookshelf.domain.Book;
 import com.vbarbar.bookshelf.service.BookService;
@@ -67,12 +71,26 @@ public class BookController {
 	@RequestMapping(value = "/add", method = RequestMethod.POST)
 	public String processAddNewBookForm(
 			@ModelAttribute("newBook") Book newBook,
-			BindingResult result) {
+			BindingResult result,
+			HttpServletRequest request) {
 		
 		String[] suppressedFields = result.getSuppressedFields();
 		if(suppressedFields.length > 0) {
 			throw new RuntimeException("Attempting to bind disallowed fields: " 
 					+ StringUtils.arrayToCommaDelimitedString(suppressedFields));
+		}
+		
+		MultipartFile bookImage = newBook.getBookImage();
+		String rootDirectory = request.getSession().getServletContext().getRealPath("/");
+		if (bookImage!=null && !bookImage.isEmpty()) {
+			try {
+				bookImage.transferTo(new File(rootDirectory.substring(0, 51) + 
+						"/bookshelf/src/main/webapp/resources/images/" + 
+						newBook.getBookId() + 
+						".png"));
+		    } catch (Exception e) {
+		    	throw new RuntimeException("Book Image saving failed", e);
+		    } 
 		}
 		
 		bookService.addBook(newBook);
@@ -81,6 +99,11 @@ public class BookController {
 	
 	@InitBinder
 	public void initializeBinder(WebDataBinder binder) {
+		
+		binder.setAllowedFields("bookId", "bookTitle","pricePerUnit",
+				"review","editor", "genre","unitsInStock",
+				"bookImage", "condition");
+		
 		binder.setDisallowedFields("unitsInOrder", "discontinued");
 	}
 }
