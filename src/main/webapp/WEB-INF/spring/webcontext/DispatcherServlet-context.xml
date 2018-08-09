@@ -54,4 +54,8 @@
     
     
     
+    <mvc:interceptors>
+      <bean class="com.vbarbar.bookshelf.interceptor.PerformanceMonitorInterceptor"/>
+    </mvc:interceptors>
+    
  </beans>

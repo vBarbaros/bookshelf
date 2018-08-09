@@ -20,7 +20,7 @@
       <div class="row">
       	<c:forEach items="${books}" var="book">
       	
-        <div class="col-sm-6 col-md-6" style="padding-bottom: 15px">
+        <div class="col-sm-4 col-md-4" style="padding-bottom: 15px">
           <div class="thumbnail">
             <img src="<c:url value="/resource/images/${book.bookId}.png"></c:url>" alt="image" style = "width:100%"/>
             <div class="caption">
