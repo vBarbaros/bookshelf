@@ -22,6 +22,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 
 import com.vbarbar.bookshelf.domain.Book;
+import com.vbarbar.bookshelf.exception.NoBooksFoundUnderGenreException;
 import com.vbarbar.bookshelf.service.BookService;
 
 @Controller
@@ -45,7 +46,13 @@ public class BookController {
 	
 	@RequestMapping("/{genre}")
 	public String getBooksByGenre(Model model, @PathVariable("genre") String bookGenre) {
-		model.addAttribute("books", bookService.getBooksByGenre(bookGenre));
+		
+		List<Book> booksByGenre = bookService.getBooksByGenre(bookGenre);
+		
+		if (booksByGenre == null || booksByGenre.isEmpty()) {
+			throw new NoBooksFoundUnderGenreException();
+		}
+		model.addAttribute("books", booksByGenre);
 		return "books";
 	}
 	
