@@ -12,6 +12,7 @@ import org.springframework.ui.Model;
 import org.springframework.util.StringUtils;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.WebDataBinder;
+import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.InitBinder;
 import org.springframework.web.bind.annotation.MatrixVariable;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -20,8 +21,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
+import org.springframework.web.servlet.ModelAndView;
 
 import com.vbarbar.bookshelf.domain.Book;
+import com.vbarbar.bookshelf.exception.BookNotFoundException;
 import com.vbarbar.bookshelf.exception.NoBooksFoundUnderGenreException;
 import com.vbarbar.bookshelf.service.BookService;
 
@@ -112,5 +115,15 @@ public class BookController {
 				"bookImage", "condition");
 		
 		binder.setDisallowedFields("unitsInOrder", "discontinued");
+	}
+	
+	@ExceptionHandler(BookNotFoundException.class)
+	public ModelAndView handleError(HttpServletRequest req, BookNotFoundException exception) {
+		 ModelAndView mav = new ModelAndView();
+		 mav.addObject("invalidBookId", exception.getBookId());
+		 mav.addObject("exception", exception);
+		 mav.addObject("url", req.getRequestURL() + "?"+ req.getQueryString());
+		 mav.setViewName("bookNotFound");
+		 return mav;
 	}
 }

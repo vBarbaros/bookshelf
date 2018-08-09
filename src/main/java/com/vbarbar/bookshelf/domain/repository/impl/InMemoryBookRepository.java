@@ -11,6 +11,7 @@ import org.springframework.stereotype.Repository;
 
 import com.vbarbar.bookshelf.domain.Book;
 import com.vbarbar.bookshelf.domain.repository.BookRepository;
+import com.vbarbar.bookshelf.exception.BookNotFoundException;
 
 @Repository
 public class InMemoryBookRepository implements BookRepository{
@@ -79,7 +80,7 @@ public class InMemoryBookRepository implements BookRepository{
 		}
 		
 		if(bookById == null) {
-			throw new IllegalArgumentException("No books found with the book id: " + bookId);
+			throw new BookNotFoundException("No books found with the book id: " + bookId);
 		}
 		
 		return bookById;
