@@ -81,4 +81,14 @@
 	
 	
 	
+	<bean id="bookValidator" class="com.vbarbar.bookshelf.validator.BookValidator">
+		<property name = "springValidators">
+			<set>
+				<ref bean = "unitsInStockValidator"/>
+			</set>
+		</property>
+	</bean>
+	
+	<bean id="unitsInStockValidator" class="com.vbarbar.bookshelf.validator.UnitsInStockValidator"/>
+	
  </beans>

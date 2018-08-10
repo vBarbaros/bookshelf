@@ -29,7 +29,7 @@ public class Book {
     private String author;
     
     @Min(value=0, message="Min.Book.pricePerUnit.validation}") 
-    @Digits(integer=8, fraction=2, message="{Digits.Book.pricePerUnit. validation}")
+    @Digits(integer=8, fraction=2, message="{Digits.Book.pricePerUnit.validation}")
     @NotNull(message= "{NotNull.Book.pricePerUnit.validation}")
     private BigDecimal pricePerUnit;
     

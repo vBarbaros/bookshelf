@@ -28,7 +28,7 @@ import com.vbarbar.bookshelf.domain.Book;
 import com.vbarbar.bookshelf.exception.BookNotFoundException;
 import com.vbarbar.bookshelf.exception.NoBooksFoundUnderGenreException;
 import com.vbarbar.bookshelf.service.BookService;
-import com.vbarbar.bookshelf.validator.UnitsInStockValidator;
+import com.vbarbar.bookshelf.validator.BookValidator;
 
 @Controller
 @RequestMapping("/books")
@@ -38,7 +38,7 @@ public class BookController {
 	private BookService bookService;
 	
 	@Autowired
-    private UnitsInStockValidator unitsInStockValidator;
+    private BookValidator bookValidator;
 	
 	@RequestMapping
     public String list(Model model) {
@@ -123,7 +123,7 @@ public class BookController {
 	
 	@InitBinder
 	public void initializeBinder(WebDataBinder binder) {
-		binder.setValidator(unitsInStockValidator);
+		binder.setValidator(bookValidator);
 		binder.setAllowedFields("bookId", "bookTitle","pricePerUnit",
 				"review","editor", "genre","unitsInStock",
 				"bookImage", "condition","language");
