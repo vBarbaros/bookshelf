@@ -59,6 +59,13 @@
       <bean class= "org.springframework.web.servlet.i18n.LocaleChangeInterceptor">
          <property name="paramName" value="language"/>
       </bean>
+      
+      <bean class= "com.vbarbar.bookshelf.interceptor.AuditingInterceptor"/>
+	  <!-- <bean class= "com.vbarbar.bookshelf.interceptor.PromoCodeInterceptor">
+	 		 	<property name="promoCode" value="OFF3R"/>
+	 			<property name="errorRedirect" value="invalidPromoCode"/>
+		 		<property name="offerRedirect" value="products"/>
+	  </bean> -->
     </mvc:interceptors>
     
     
