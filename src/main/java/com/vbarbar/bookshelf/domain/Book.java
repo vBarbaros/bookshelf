@@ -13,10 +13,13 @@ import javax.xml.bind.annotation.XmlTransient;
 import org.codehaus.jackson.annotate.JsonIgnore;
 import org.springframework.web.multipart.MultipartFile;
 
+import com.vbarbar.bookshelf.validator.BookId;
+
 @XmlRootElement
 public class Book {
 
 	@Pattern(regexp="B[0-9]+", message="{Pattern.Book.bookId.validation}")
+	@BookId
 	private String bookId;
 	
 	@Size(min=4, max=50, message="{Size.Book.bookTitle.validation}")
