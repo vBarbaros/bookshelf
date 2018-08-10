@@ -112,7 +112,7 @@ public class BookController {
 		
 		binder.setAllowedFields("bookId", "bookTitle","pricePerUnit",
 				"review","editor", "genre","unitsInStock",
-				"bookImage", "condition");
+				"bookImage", "condition","language");
 		
 		binder.setDisallowedFields("unitsInOrder", "discontinued");
 	}

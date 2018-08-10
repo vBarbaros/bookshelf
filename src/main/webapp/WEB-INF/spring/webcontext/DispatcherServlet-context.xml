@@ -56,6 +56,14 @@
     
     <mvc:interceptors>
       <bean class="com.vbarbar.bookshelf.interceptor.PerformanceMonitorInterceptor"/>
+      <bean class= "org.springframework.web.servlet.i18n.LocaleChangeInterceptor">
+         <property name="paramName" value="language"/>
+      </bean>
     </mvc:interceptors>
     
+    
+    <bean id="localeResolver" class="org.springframework.web.servlet.i18n.SessionLocaleResolver">
+         <property name="defaultLocale" value="en"/>
+    </bean>
+       
  </beans>
