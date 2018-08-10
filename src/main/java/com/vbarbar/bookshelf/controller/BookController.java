@@ -107,6 +107,11 @@ public class BookController {
 		return "redirect:/books";
 	}
 	
+	@RequestMapping("/invalidPromoCode") 
+	public String invalidPromoCode() {
+        return "invalidPromoCode";
+    }
+	
 	@InitBinder
 	public void initializeBinder(WebDataBinder binder) {
 		
