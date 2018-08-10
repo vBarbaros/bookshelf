@@ -8,7 +8,7 @@
         	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd
         http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd" >
     
-    <mvc:annotation-driven enable-matrix-variables="true" />
+    <mvc:annotation-driven enable-matrix-variables="true" validator="validator" />
     <context:component-scan base-package="com.vbarbar.bookshelf" />
     <mvc:resources location="/resources/" mapping="/resource/**"/>
      
@@ -73,4 +73,12 @@
          <property name="defaultLocale" value="en"/>
     </bean>
        
+    
+    
+    <bean id="validator" class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean">
+		<property name="validationMessageSource" ref="messageSource" />
+	</bean>
+	
+	
+	
  </beans>

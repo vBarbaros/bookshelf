@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.Map;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -80,9 +81,13 @@ public class BookController {
 	
 	@RequestMapping(value = "/add", method = RequestMethod.POST)
 	public String processAddNewBookForm(
-			@ModelAttribute("newBook") Book newBook,
+			@ModelAttribute("newBook") @Valid Book newBook,
 			BindingResult result,
 			HttpServletRequest request) {
+		
+		if(result.hasErrors()) {
+			return "addBook";
+		}
 		
 		String[] suppressedFields = result.getSuppressedFields();
 		if(suppressedFields.length > 0) {

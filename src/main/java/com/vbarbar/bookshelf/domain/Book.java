@@ -2,6 +2,11 @@ package com.vbarbar.bookshelf.domain;
 
 import java.math.BigDecimal;
 
+import javax.validation.constraints.Digits;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Pattern;
+import javax.validation.constraints.Size;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlTransient;
 
@@ -11,10 +16,20 @@ import org.springframework.web.multipart.MultipartFile;
 @XmlRootElement
 public class Book {
 
+	@Pattern(regexp="B[0-9]+", message="{Pattern.Book.bookId.validation}")
 	private String bookId;
+	
+	@Size(min=4, max=50, message="{Size.Book.bookTitle.validation}")
+	@NotNull(message= "{NotNull.Book.bookTitle.validation}")
     private String bookTitle;
+	
     private String author;
+    
+    @Min(value=0, message="Min.Book.pricePerUnit.validation}") 
+    @Digits(integer=8, fraction=2, message="{Digits.Book.pricePerUnit. validation}")
+    @NotNull(message= "{NotNull.Book.pricePerUnit.validation}")
     private BigDecimal pricePerUnit;
+    
     private String review;
     private String genre;
     private String editor;

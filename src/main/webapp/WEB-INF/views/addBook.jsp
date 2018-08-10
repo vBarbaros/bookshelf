@@ -27,13 +27,14 @@
 		<form:form  modelAttribute="newBook" class="form-horizontal" enctype="multipart/form-data">
 			<fieldset>
 				<legend>Add new book</legend>
-
+				<form:errors path="*" cssClass="alert alert-danger" element="div"/>
 				<div class="form-group">
 					<label class="control-label col-sm-6 col-md-6 col-lg-6" for="bookId">
 						<spring:message code="addBook.form.bookId.label" />
 					</label>
 					<div class="col-lg-12">
 						<form:input id="bookId" path="bookId" type="text" class="form:input-large"/>
+						<form:errors path="bookId" cssClass="text-danger"/>
 					</div>
 				</div>
 
@@ -41,6 +42,7 @@
 					<label class="control-label col-sm-6 col-md-6 col-lg-6" for="bookTitle">Book Title</label>
 					<div class="col-lg-12">
 						<form:input id="bookTitle" path="bookTitle" type="text" class="form:input-large"/>
+						<form:errors path="bookTitle" cssClass="text-danger"/>
 					</div>
 				</div>
 
@@ -49,6 +51,7 @@
 					<div class="col-lg-12">
 						<div class="form:input-prepend">
 							<form:input id="pricePerUnit" path="pricePerUnit" type="text" class="form:input-large"/>
+							<form:errors path="pricePerUnit" cssClass="text-danger"/>
 						</div>
 					</div>
 				</div>
