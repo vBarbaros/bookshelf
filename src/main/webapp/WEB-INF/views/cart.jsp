@@ -12,12 +12,12 @@
 <body>
 <!-- 
 	<section>
-		<div class="jumbotron">
+		<!-- <div class="jumbotron">
 			<div class="container">
 				<h1>Cart</h1>
 				<p>All the selected books in your cart</p>
 			</div>
-		</div>
+		</div> -->
 	</section>
  -->
 	<section class="container" ng-app="cartApp">

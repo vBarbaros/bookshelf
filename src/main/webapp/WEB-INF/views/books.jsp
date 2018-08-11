@@ -8,14 +8,14 @@
     <title>Books</title>
   </head>
   <body>
-    <section>
+<!--     <section>
       <div class="jumbotron">
         <div class="container">
           <h1>Books</h1>
           <p>All the available books on my Bookshelf</p>
         </div>
    	  </div>
-	</section>
+	</section> -->
 	<section class="container">
       <div class="row">
       	<c:forEach items="${books}" var="book">
