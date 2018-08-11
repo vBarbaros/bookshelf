@@ -1,5 +1,6 @@
 package com.vbarbar.bookshelf.domain;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 
 import javax.validation.constraints.Digits;
@@ -16,8 +17,10 @@ import org.springframework.web.multipart.MultipartFile;
 import com.vbarbar.bookshelf.validator.BookId;
 
 @XmlRootElement
-public class Book {
+public class Book implements Serializable{
 
+	private static final long serialVersionUID = 3678107792576131001L;
+	
 	@Pattern(regexp="B[0-9]+", message="{Pattern.Book.bookId.validation}")
 	@BookId
 	private String bookId;

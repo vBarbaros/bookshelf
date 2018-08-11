@@ -1676,3 +1676,313 @@
 2018-08-10 18:19:12 INFO  PerformanceMonitorInterceptor:38 - =======================================================
 2018-08-10 18:23:02 INFO  XmlWebApplicationContext:873 - Closing WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Fri Aug 10 18:18:08 EDT 2018]; parent: Root WebApplicationContext
 2018-08-10 18:23:02 INFO  XmlWebApplicationContext:873 - Closing Root WebApplicationContext: startup date [Fri Aug 10 18:18:07 EDT 2018]; root of context hierarchy
+2018-08-10 21:47:48 INFO  ContextLoader:285 - Root WebApplicationContext: initialization started
+2018-08-10 21:47:48 INFO  XmlWebApplicationContext:513 - Refreshing Root WebApplicationContext: startup date [Fri Aug 10 21:47:48 EDT 2018]; root of context hierarchy
+2018-08-10 21:47:48 INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/webcontext/security-context.xml]
+2018-08-10 21:47:49 INFO  SpringSecurityCoreVersion:33 - You are running with Spring Security Core 3.1.4.RELEASE
+2018-08-10 21:47:49 ERROR SpringSecurityCoreVersion:35 - *** Spring Major version '3' expected, but you are running with version: 4.0.3.RELEASE. Please check your classpath for unwanted jar files.
+2018-08-10 21:47:49 INFO  SecurityNamespaceHandler:59 - Spring Security 'config' module version is 3.1.4.RELEASE
+2018-08-10 21:47:49 INFO  HttpSecurityBeanDefinitionParser:264 - Checking sorted filter chain: [Root bean: class [org.springframework.security.web.context.SecurityContextPersistenceFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 200, Root bean: class [org.springframework.security.web.authentication.logout.LogoutFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 400, <org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter#0>, order = 800, Root bean: class [org.springframework.security.web.authentication.www.BasicAuthenticationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1200, Root bean: class [org.springframework.security.web.savedrequest.RequestCacheAwareFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1300, Root bean: class [org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1400, Root bean: class [org.springframework.security.web.authentication.AnonymousAuthenticationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1700, Root bean: class [org.springframework.security.web.session.SessionManagementFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1800, Root bean: class [org.springframework.security.web.access.ExceptionTranslationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1900, <org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0>, order = 2000]
+2018-08-10 21:47:50 INFO  DefaultSecurityFilterChain:28 - Creating filter chain: org.springframework.security.web.util.AnyRequestMatcher@1, [org.springframework.security.web.context.SecurityContextPersistenceFilter@25734e7b, org.springframework.security.web.authentication.logout.LogoutFilter@74deeb7d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@367c4c24, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5510742d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6a2ff862, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@69a96359, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3de00f24, org.springframework.security.web.session.SessionManagementFilter@6b07b5a9, org.springframework.security.web.access.ExceptionTranslationFilter@7e7eac43, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5c6fbb7e]
+2018-08-10 21:47:50 INFO  DefaultFilterChainValidator:122 - Checking whether login URL '/login' is accessible with your configuration
+2018-08-10 21:47:50 INFO  ContextLoader:325 - Root WebApplicationContext: initialization completed in 1423 ms
+2018-08-10 21:48:17 INFO  DispatcherServlet:479 - FrameworkServlet 'DispatcherServlet': initialization started
+2018-08-10 21:48:17 INFO  XmlWebApplicationContext:513 - Refreshing WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Fri Aug 10 21:48:17 EDT 2018]; parent: Root WebApplicationContext
+2018-08-10 21:48:17 INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/webcontext/DispatcherServlet-context.xml]
+2018-08-10 21:48:17 INFO  DefaultListableBeanFactory:749 - Overriding bean definition for bean 'unitsInStockValidator': replacing [Generic bean: class [com.vbarbar.bookshelf.validator.UnitsInStockValidator]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [/Users/victor/Documents/workspace-sts-3.9.4.RELEASE/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/bookshelf/WEB-INF/classes/com/vbarbar/bookshelf/validator/UnitsInStockValidator.class]] with [Generic bean: class [com.vbarbar.bookshelf.validator.UnitsInStockValidator]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in ServletContext resource [/WEB-INF/spring/webcontext/DispatcherServlet-context.xml]]
+2018-08-10 21:48:18 INFO  RequestMappingHandlerMapping:197 - Mapped "{[/order],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.vbarbar.bookshelf.controller.OrderController.process()
+2018-08-10 21:48:18 INFO  RequestMappingHandlerMapping:197 - Mapped "{[/welcome/greeting],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.vbarbar.bookshelf.controller.HomeController.greeting()
+2018-08-10 21:48:18 INFO  RequestMappingHandlerMapping:197 - Mapped "{[/],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.vbarbar.bookshelf.controller.HomeController.welcome(org.springframework.ui.Model)
+2018-08-10 21:48:18 INFO  RequestMappingHandlerMapping:197 - Mapped "{[/books],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.vbarbar.bookshelf.controller.BookController.list(org.springframework.ui.Model)
+2018-08-10 21:48:18 INFO  RequestMappingHandlerMapping:197 - Mapped "{[/books/all],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.vbarbar.bookshelf.controller.BookController.allBooks(org.springframework.ui.Model)
+2018-08-10 21:48:18 INFO  RequestMappingHandlerMapping:197 - Mapped "{[/books/{genre}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.vbarbar.bookshelf.controller.BookController.getBooksByGenre(org.springframework.ui.Model,java.lang.String)
+2018-08-10 21:48:18 INFO  RequestMappingHandlerMapping:197 - Mapped "{[/books/filter/{byCriteria}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.vbarbar.bookshelf.controller.BookController.getBooksByFilter(java.util.Map<java.lang.String, java.util.List<java.lang.String>>,org.springframework.ui.Model)
+2018-08-10 21:48:18 INFO  RequestMappingHandlerMapping:197 - Mapped "{[/books/book],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.vbarbar.bookshelf.controller.BookController.getBookById(java.lang.String,org.springframework.ui.Model)
+2018-08-10 21:48:18 INFO  RequestMappingHandlerMapping:197 - Mapped "{[/books/add],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.vbarbar.bookshelf.controller.BookController.getAddNewBookForm(org.springframework.ui.Model)
+2018-08-10 21:48:18 INFO  RequestMappingHandlerMapping:197 - Mapped "{[/books/add],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.vbarbar.bookshelf.controller.BookController.processAddNewBookForm(com.vbarbar.bookshelf.domain.Book,org.springframework.validation.BindingResult,javax.servlet.http.HttpServletRequest)
+2018-08-10 21:48:18 INFO  RequestMappingHandlerMapping:197 - Mapped "{[/books/invalidPromoCode],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.vbarbar.bookshelf.controller.BookController.invalidPromoCode()
+2018-08-10 21:48:18 INFO  RequestMappingHandlerMapping:197 - Mapped "{[/login],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.vbarbar.bookshelf.controller.LoginController.login()
+2018-08-10 21:48:18 INFO  RequestMappingHandlerMapping:197 - Mapped "{[/logout],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.vbarbar.bookshelf.controller.LoginController.logout(org.springframework.ui.Model)
+2018-08-10 21:48:18 INFO  RequestMappingHandlerMapping:197 - Mapped "{[/loginfailed],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.vbarbar.bookshelf.controller.LoginController.loginerror(org.springframework.ui.Model)
+2018-08-10 21:48:18 INFO  RequestMappingHandlerMapping:197 - Mapped "{[/rest/cart/{cartId}],methods=[PUT],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.vbarbar.bookshelf.controller.CartRestController.update(java.lang.String,com.vbarbar.bookshelf.domain.Cart)
+2018-08-10 21:48:18 INFO  RequestMappingHandlerMapping:197 - Mapped "{[/rest/cart/{cartId}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.vbarbar.bookshelf.domain.Cart com.vbarbar.bookshelf.controller.CartRestController.read(java.lang.String)
+2018-08-10 21:48:18 INFO  RequestMappingHandlerMapping:197 - Mapped "{[/rest/cart/{cartId}],methods=[DELETE],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.vbarbar.bookshelf.controller.CartRestController.delete(java.lang.String)
+2018-08-10 21:48:18 INFO  RequestMappingHandlerMapping:197 - Mapped "{[/rest/cart],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.vbarbar.bookshelf.domain.Cart com.vbarbar.bookshelf.controller.CartRestController.create(com.vbarbar.bookshelf.domain.Cart)
+2018-08-10 21:48:18 INFO  RequestMappingHandlerMapping:197 - Mapped "{[/rest/cart/remove/{bookId}],methods=[PUT],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.vbarbar.bookshelf.controller.CartRestController.removeItem(java.lang.String,javax.servlet.http.HttpServletRequest)
+2018-08-10 21:48:18 INFO  RequestMappingHandlerMapping:197 - Mapped "{[/rest/cart/add/{bookId}],methods=[PUT],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.vbarbar.bookshelf.controller.CartRestController.addItem(java.lang.String,javax.servlet.http.HttpServletRequest)
+2018-08-10 21:48:18 INFO  RequestMappingHandlerMapping:197 - Mapped "{[/cart],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.vbarbar.bookshelf.controller.CartController.get(javax.servlet.http.HttpServletRequest)
+2018-08-10 21:48:18 INFO  RequestMappingHandlerMapping:197 - Mapped "{[/cart/{cartId}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.vbarbar.bookshelf.controller.CartController.getCart(java.lang.String,org.springframework.ui.Model)
+2018-08-10 21:48:18 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-10 21:48:19 INFO  SimpleUrlHandlerMapping:315 - Mapped URL path [/resource/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2018-08-10 21:48:19 INFO  Jaxb2Marshaller:493 - Creating JAXBContext with classes to be bound [class com.vbarbar.bookshelf.domain.Book]
+2018-08-10 21:48:19 INFO  DispatcherServlet:498 - FrameworkServlet 'DispatcherServlet': initialization completed in 2394 ms
+2018-08-10 21:48:19 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/books/book?id=B0002
+2018-08-10 21:48:19 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 10/08/2018 at 09:48:19
+2018-08-10 21:48:19 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 10/08/2018 at 09:48:19
+2018-08-10 21:48:20 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 284 ms
+2018-08-10 21:48:20 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-10 21:48:20 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/resource/js/controllers.js
+2018-08-10 21:48:20 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 10/08/2018 at 09:48:20
+2018-08-10 21:48:20 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 10/08/2018 at 09:48:20
+2018-08-10 21:48:20 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 10 ms
+2018-08-10 21:48:20 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-10 21:48:22 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/rest/cart/add/B0002
+2018-08-10 21:48:22 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 10/08/2018 at 09:48:22
+2018-08-10 21:48:22 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 10/08/2018 at 09:48:22
+2018-08-10 21:48:22 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 20 ms
+2018-08-10 21:48:22 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-10 21:48:22 WARN  PageNotFound:1110 - No mapping found for HTTP request with URI [/bookshelf/rest/cart/get/cartId] in DispatcherServlet with name 'DispatcherServlet'
+2018-08-10 21:48:22 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/rest/cart/undefined
+2018-08-10 21:48:22 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 10/08/2018 at 09:48:22
+2018-08-10 21:48:22 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 10/08/2018 at 09:48:22
+2018-08-10 21:48:22 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 7 ms
+2018-08-10 21:48:22 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-10 21:48:27 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/cart
+2018-08-10 21:48:27 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 10/08/2018 at 09:48:27
+2018-08-10 21:48:27 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 10/08/2018 at 09:48:27
+2018-08-10 21:48:27 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 10 ms
+2018-08-10 21:48:27 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-10 21:48:27 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/cart/CA33053909B53793CBC934B0BEBBBC47
+2018-08-10 21:48:27 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 10/08/2018 at 09:48:27
+2018-08-10 21:48:27 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 10/08/2018 at 09:48:27
+2018-08-10 21:48:29 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 1901 ms
+2018-08-10 21:48:29 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-10 21:48:29 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/rest/cart/CA33053909B53793CBC934B0BEBBBC47
+2018-08-10 21:48:29 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 10/08/2018 at 09:48:29
+2018-08-10 21:48:29 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 10/08/2018 at 09:48:29
+2018-08-10 21:48:29 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 189 ms
+2018-08-10 21:48:29 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-10 21:48:34 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/checkout?cartId=CA33053909B53793CBC934B0BEBBBC47
+2018-08-10 21:48:34 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 10/08/2018 at 09:48:34
+2018-08-10 21:48:34 INFO  GenericWebApplicationContext:513 - Refreshing Flow ApplicationContext [checkout]: startup date [Fri Aug 10 21:48:34 EDT 2018]; parent: WebApplicationContext for namespace 'DispatcherServlet-servlet'
+2018-08-10 21:48:35 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 10/08/2018 at 09:48:35
+2018-08-10 21:48:35 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 269 ms
+2018-08-10 21:48:35 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-10 21:48:35 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/checkout?execution=e1s1
+2018-08-10 21:48:35 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 10/08/2018 at 09:48:35
+2018-08-10 21:48:35 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 10/08/2018 at 09:48:35
+2018-08-10 21:48:35 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 433 ms
+2018-08-10 21:48:35 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-10 21:49:05 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/checkout?execution=e1s1
+2018-08-10 21:49:05 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 10/08/2018 at 09:49:05
+2018-08-10 21:49:05 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 10/08/2018 at 09:49:05
+2018-08-10 21:49:05 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 54 ms
+2018-08-10 21:49:05 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-10 21:49:05 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/checkout?execution=e1s2
+2018-08-10 21:49:05 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 10/08/2018 at 09:49:05
+2018-08-10 21:49:05 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 10/08/2018 at 09:49:05
+2018-08-10 21:49:05 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 389 ms
+2018-08-10 21:49:05 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-10 21:49:24 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/checkout?execution=e1s2
+2018-08-10 21:49:24 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 10/08/2018 at 09:49:24
+2018-08-10 21:49:24 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 10/08/2018 at 09:49:24
+2018-08-10 21:49:24 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 22 ms
+2018-08-10 21:49:24 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-10 21:49:24 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/checkout?execution=e1s3
+2018-08-10 21:49:24 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 10/08/2018 at 09:49:24
+2018-08-10 21:49:24 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 466 ms
+2018-08-10 21:49:24 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-10 21:51:19 INFO  XmlWebApplicationContext:873 - Closing WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Fri Aug 10 21:48:17 EDT 2018]; parent: Root WebApplicationContext
+2018-08-10 21:51:19 INFO  GenericWebApplicationContext:873 - Closing Flow ApplicationContext [checkout]: startup date [Fri Aug 10 21:48:34 EDT 2018]; parent: WebApplicationContext for namespace 'DispatcherServlet-servlet'
+2018-08-10 21:51:19 INFO  XmlWebApplicationContext:873 - Closing Root WebApplicationContext: startup date [Fri Aug 10 21:47:48 EDT 2018]; root of context hierarchy
+2018-08-10 21:51:34 INFO  ContextLoader:285 - Root WebApplicationContext: initialization started
+2018-08-10 21:51:34 INFO  XmlWebApplicationContext:513 - Refreshing Root WebApplicationContext: startup date [Fri Aug 10 21:51:34 EDT 2018]; root of context hierarchy
+2018-08-10 21:51:34 INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/webcontext/security-context.xml]
+2018-08-10 21:51:35 INFO  SpringSecurityCoreVersion:33 - You are running with Spring Security Core 3.1.4.RELEASE
+2018-08-10 21:51:35 ERROR SpringSecurityCoreVersion:35 - *** Spring Major version '3' expected, but you are running with version: 4.0.3.RELEASE. Please check your classpath for unwanted jar files.
+2018-08-10 21:51:35 INFO  SecurityNamespaceHandler:59 - Spring Security 'config' module version is 3.1.4.RELEASE
+2018-08-10 21:51:35 INFO  HttpSecurityBeanDefinitionParser:264 - Checking sorted filter chain: [Root bean: class [org.springframework.security.web.context.SecurityContextPersistenceFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 200, Root bean: class [org.springframework.security.web.authentication.logout.LogoutFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 400, <org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter#0>, order = 800, Root bean: class [org.springframework.security.web.authentication.www.BasicAuthenticationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1200, Root bean: class [org.springframework.security.web.savedrequest.RequestCacheAwareFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1300, Root bean: class [org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1400, Root bean: class [org.springframework.security.web.authentication.AnonymousAuthenticationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1700, Root bean: class [org.springframework.security.web.session.SessionManagementFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1800, Root bean: class [org.springframework.security.web.access.ExceptionTranslationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1900, <org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0>, order = 2000]
+2018-08-10 21:51:35 INFO  DefaultSecurityFilterChain:28 - Creating filter chain: org.springframework.security.web.util.AnyRequestMatcher@1, [org.springframework.security.web.context.SecurityContextPersistenceFilter@4d3a64e0, org.springframework.security.web.authentication.logout.LogoutFilter@6bc4dcec, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@67e2969, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@58be364f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@463d44dc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@bd3c34b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7c119639, org.springframework.security.web.session.SessionManagementFilter@55b4cbba, org.springframework.security.web.access.ExceptionTranslationFilter@79837e74, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6cdf2394]
+2018-08-10 21:51:35 INFO  DefaultFilterChainValidator:122 - Checking whether login URL '/login' is accessible with your configuration
+2018-08-10 21:51:35 INFO  ContextLoader:325 - Root WebApplicationContext: initialization completed in 1165 ms
+2018-08-10 21:51:39 INFO  DispatcherServlet:479 - FrameworkServlet 'DispatcherServlet': initialization started
+2018-08-10 21:51:39 INFO  XmlWebApplicationContext:513 - Refreshing WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Fri Aug 10 21:51:39 EDT 2018]; parent: Root WebApplicationContext
+2018-08-10 21:51:39 INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/webcontext/DispatcherServlet-context.xml]
+2018-08-10 21:51:40 INFO  DefaultListableBeanFactory:749 - Overriding bean definition for bean 'unitsInStockValidator': replacing [Generic bean: class [com.vbarbar.bookshelf.validator.UnitsInStockValidator]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [/Users/victor/Documents/workspace-sts-3.9.4.RELEASE/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/bookshelf/WEB-INF/classes/com/vbarbar/bookshelf/validator/UnitsInStockValidator.class]] with [Generic bean: class [com.vbarbar.bookshelf.validator.UnitsInStockValidator]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in ServletContext resource [/WEB-INF/spring/webcontext/DispatcherServlet-context.xml]]
+2018-08-10 21:51:40 INFO  RequestMappingHandlerMapping:197 - Mapped "{[/order],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.vbarbar.bookshelf.controller.OrderController.process()
+2018-08-10 21:51:40 INFO  RequestMappingHandlerMapping:197 - Mapped "{[/welcome/greeting],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.vbarbar.bookshelf.controller.HomeController.greeting()
+2018-08-10 21:51:40 INFO  RequestMappingHandlerMapping:197 - Mapped "{[/],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.vbarbar.bookshelf.controller.HomeController.welcome(org.springframework.ui.Model)
+2018-08-10 21:51:40 INFO  RequestMappingHandlerMapping:197 - Mapped "{[/books],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.vbarbar.bookshelf.controller.BookController.list(org.springframework.ui.Model)
+2018-08-10 21:51:40 INFO  RequestMappingHandlerMapping:197 - Mapped "{[/books/all],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.vbarbar.bookshelf.controller.BookController.allBooks(org.springframework.ui.Model)
+2018-08-10 21:51:40 INFO  RequestMappingHandlerMapping:197 - Mapped "{[/books/{genre}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.vbarbar.bookshelf.controller.BookController.getBooksByGenre(org.springframework.ui.Model,java.lang.String)
+2018-08-10 21:51:40 INFO  RequestMappingHandlerMapping:197 - Mapped "{[/books/filter/{byCriteria}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.vbarbar.bookshelf.controller.BookController.getBooksByFilter(java.util.Map<java.lang.String, java.util.List<java.lang.String>>,org.springframework.ui.Model)
+2018-08-10 21:51:40 INFO  RequestMappingHandlerMapping:197 - Mapped "{[/books/book],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.vbarbar.bookshelf.controller.BookController.getBookById(java.lang.String,org.springframework.ui.Model)
+2018-08-10 21:51:40 INFO  RequestMappingHandlerMapping:197 - Mapped "{[/books/add],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.vbarbar.bookshelf.controller.BookController.getAddNewBookForm(org.springframework.ui.Model)
+2018-08-10 21:51:40 INFO  RequestMappingHandlerMapping:197 - Mapped "{[/books/add],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.vbarbar.bookshelf.controller.BookController.processAddNewBookForm(com.vbarbar.bookshelf.domain.Book,org.springframework.validation.BindingResult,javax.servlet.http.HttpServletRequest)
+2018-08-10 21:51:40 INFO  RequestMappingHandlerMapping:197 - Mapped "{[/books/invalidPromoCode],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.vbarbar.bookshelf.controller.BookController.invalidPromoCode()
+2018-08-10 21:51:40 INFO  RequestMappingHandlerMapping:197 - Mapped "{[/login],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.vbarbar.bookshelf.controller.LoginController.login()
+2018-08-10 21:51:40 INFO  RequestMappingHandlerMapping:197 - Mapped "{[/logout],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.vbarbar.bookshelf.controller.LoginController.logout(org.springframework.ui.Model)
+2018-08-10 21:51:40 INFO  RequestMappingHandlerMapping:197 - Mapped "{[/loginfailed],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.vbarbar.bookshelf.controller.LoginController.loginerror(org.springframework.ui.Model)
+2018-08-10 21:51:40 INFO  RequestMappingHandlerMapping:197 - Mapped "{[/rest/cart/{cartId}],methods=[PUT],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.vbarbar.bookshelf.controller.CartRestController.update(java.lang.String,com.vbarbar.bookshelf.domain.Cart)
+2018-08-10 21:51:40 INFO  RequestMappingHandlerMapping:197 - Mapped "{[/rest/cart/{cartId}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.vbarbar.bookshelf.domain.Cart com.vbarbar.bookshelf.controller.CartRestController.read(java.lang.String)
+2018-08-10 21:51:40 INFO  RequestMappingHandlerMapping:197 - Mapped "{[/rest/cart/{cartId}],methods=[DELETE],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.vbarbar.bookshelf.controller.CartRestController.delete(java.lang.String)
+2018-08-10 21:51:40 INFO  RequestMappingHandlerMapping:197 - Mapped "{[/rest/cart],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.vbarbar.bookshelf.domain.Cart com.vbarbar.bookshelf.controller.CartRestController.create(com.vbarbar.bookshelf.domain.Cart)
+2018-08-10 21:51:40 INFO  RequestMappingHandlerMapping:197 - Mapped "{[/rest/cart/add/{bookId}],methods=[PUT],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.vbarbar.bookshelf.controller.CartRestController.addItem(java.lang.String,javax.servlet.http.HttpServletRequest)
+2018-08-10 21:51:40 INFO  RequestMappingHandlerMapping:197 - Mapped "{[/rest/cart/remove/{bookId}],methods=[PUT],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.vbarbar.bookshelf.controller.CartRestController.removeItem(java.lang.String,javax.servlet.http.HttpServletRequest)
+2018-08-10 21:51:40 INFO  RequestMappingHandlerMapping:197 - Mapped "{[/cart],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.vbarbar.bookshelf.controller.CartController.get(javax.servlet.http.HttpServletRequest)
+2018-08-10 21:51:40 INFO  RequestMappingHandlerMapping:197 - Mapped "{[/cart/{cartId}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.vbarbar.bookshelf.controller.CartController.getCart(java.lang.String,org.springframework.ui.Model)
+2018-08-10 21:51:41 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-10 21:51:41 INFO  SimpleUrlHandlerMapping:315 - Mapped URL path [/resource/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2018-08-10 21:51:41 INFO  Jaxb2Marshaller:493 - Creating JAXBContext with classes to be bound [class com.vbarbar.bookshelf.domain.Book]
+2018-08-10 21:51:41 INFO  DispatcherServlet:498 - FrameworkServlet 'DispatcherServlet': initialization completed in 2156 ms
+2018-08-10 21:51:42 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/books
+2018-08-10 21:51:42 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 10/08/2018 at 09:51:42
+2018-08-10 21:51:42 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 10/08/2018 at 09:51:42
+2018-08-10 21:51:42 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 167 ms
+2018-08-10 21:51:42 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-10 21:51:46 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/books/book?id=B0002
+2018-08-10 21:51:46 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 10/08/2018 at 09:51:46
+2018-08-10 21:51:46 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 10/08/2018 at 09:51:46
+2018-08-10 21:51:46 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 41 ms
+2018-08-10 21:51:46 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-10 21:51:49 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/rest/cart/add/B0002
+2018-08-10 21:51:49 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 10/08/2018 at 09:51:49
+2018-08-10 21:51:49 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 10/08/2018 at 09:51:49
+2018-08-10 21:51:49 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 31 ms
+2018-08-10 21:51:49 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-10 21:51:49 WARN  PageNotFound:1110 - No mapping found for HTTP request with URI [/bookshelf/rest/cart/get/cartId] in DispatcherServlet with name 'DispatcherServlet'
+2018-08-10 21:51:49 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/rest/cart/undefined
+2018-08-10 21:51:49 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 10/08/2018 at 09:51:49
+2018-08-10 21:51:49 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 10/08/2018 at 09:51:49
+2018-08-10 21:51:49 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 23 ms
+2018-08-10 21:51:49 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-10 21:51:52 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/cart
+2018-08-10 21:51:52 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 10/08/2018 at 09:51:52
+2018-08-10 21:51:52 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 10/08/2018 at 09:51:52
+2018-08-10 21:51:52 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 8 ms
+2018-08-10 21:51:52 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-10 21:51:52 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/cart/CA33053909B53793CBC934B0BEBBBC47
+2018-08-10 21:51:52 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 10/08/2018 at 09:51:52
+2018-08-10 21:51:52 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 10/08/2018 at 09:51:52
+2018-08-10 21:51:52 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 13 ms
+2018-08-10 21:51:52 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-10 21:51:52 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/rest/cart/CA33053909B53793CBC934B0BEBBBC47
+2018-08-10 21:51:52 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 10/08/2018 at 09:51:52
+2018-08-10 21:51:53 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 10/08/2018 at 09:51:53
+2018-08-10 21:51:53 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 232 ms
+2018-08-10 21:51:53 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-10 21:51:54 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/checkout?cartId=CA33053909B53793CBC934B0BEBBBC47
+2018-08-10 21:51:54 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 10/08/2018 at 09:51:54
+2018-08-10 21:51:54 INFO  GenericWebApplicationContext:513 - Refreshing Flow ApplicationContext [checkout]: startup date [Fri Aug 10 21:51:54 EDT 2018]; parent: WebApplicationContext for namespace 'DispatcherServlet-servlet'
+2018-08-10 21:51:54 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 10/08/2018 at 09:51:54
+2018-08-10 21:51:54 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 219 ms
+2018-08-10 21:51:54 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-10 21:51:54 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/checkout?execution=e2s1
+2018-08-10 21:51:54 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 10/08/2018 at 09:51:54
+2018-08-10 21:51:54 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 10/08/2018 at 09:51:54
+2018-08-10 21:51:54 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 105 ms
+2018-08-10 21:51:54 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-10 21:52:06 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/checkout?execution=e2s1
+2018-08-10 21:52:06 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 10/08/2018 at 09:52:06
+2018-08-10 21:52:06 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 10/08/2018 at 09:52:06
+2018-08-10 21:52:06 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 38 ms
+2018-08-10 21:52:06 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-10 21:52:06 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/checkout?execution=e2s2
+2018-08-10 21:52:06 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 10/08/2018 at 09:52:06
+2018-08-10 21:52:06 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 10/08/2018 at 09:52:06
+2018-08-10 21:52:06 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 59 ms
+2018-08-10 21:52:06 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-10 21:52:16 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/checkout?execution=e2s2
+2018-08-10 21:52:16 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 10/08/2018 at 09:52:16
+2018-08-10 21:52:16 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 10/08/2018 at 09:52:16
+2018-08-10 21:52:16 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 20 ms
+2018-08-10 21:52:16 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-10 21:52:16 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/checkout?execution=e2s3
+2018-08-10 21:52:16 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 10/08/2018 at 09:52:16
+2018-08-10 21:52:18 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 10/08/2018 at 09:52:18
+2018-08-10 21:52:18 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 1964 ms
+2018-08-10 21:52:18 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-10 21:52:27 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/checkout?execution=e2s3
+2018-08-10 21:52:27 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 10/08/2018 at 09:52:27
+2018-08-10 21:52:27 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 10/08/2018 at 09:52:27
+2018-08-10 21:52:27 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 12 ms
+2018-08-10 21:52:27 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-10 21:52:27 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/checkout?execution=e2s4
+2018-08-10 21:52:27 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 10/08/2018 at 09:52:27
+2018-08-10 21:52:27 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 10/08/2018 at 09:52:27
+2018-08-10 21:52:27 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 231 ms
+2018-08-10 21:52:27 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-10 21:52:37 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/books
+2018-08-10 21:52:37 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 10/08/2018 at 09:52:37
+2018-08-10 21:52:37 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 10/08/2018 at 09:52:37
+2018-08-10 21:52:37 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 8 ms
+2018-08-10 21:52:37 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-10 21:56:32 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/books/book?id=B0003
+2018-08-10 21:56:32 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 10/08/2018 at 09:56:32
+2018-08-10 21:56:32 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 10/08/2018 at 09:56:32
+2018-08-10 21:56:32 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 35 ms
+2018-08-10 21:56:32 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-10 21:56:35 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/rest/cart/add/B0003
+2018-08-10 21:56:35 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 10/08/2018 at 09:56:35
+2018-08-10 21:56:35 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 10/08/2018 at 09:56:35
+2018-08-10 21:56:35 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 7 ms
+2018-08-10 21:56:35 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-10 21:56:35 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/rest/cart/undefined
+2018-08-10 21:56:35 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 10/08/2018 at 09:56:35
+2018-08-10 21:56:35 WARN  PageNotFound:1110 - No mapping found for HTTP request with URI [/bookshelf/rest/cart/get/cartId] in DispatcherServlet with name 'DispatcherServlet'
+2018-08-10 21:56:35 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 10/08/2018 at 09:56:35
+2018-08-10 21:56:35 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 7 ms
+2018-08-10 21:56:35 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-10 21:56:42 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/cart
+2018-08-10 21:56:42 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 10/08/2018 at 09:56:42
+2018-08-10 21:56:42 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 10/08/2018 at 09:56:42
+2018-08-10 21:56:42 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 5 ms
+2018-08-10 21:56:42 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-10 21:56:42 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/cart/CA33053909B53793CBC934B0BEBBBC47
+2018-08-10 21:56:42 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 10/08/2018 at 09:56:42
+2018-08-10 21:56:42 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 10/08/2018 at 09:56:42
+2018-08-10 21:56:42 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 7 ms
+2018-08-10 21:56:42 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-10 21:56:42 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/rest/cart/CA33053909B53793CBC934B0BEBBBC47
+2018-08-10 21:56:42 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 10/08/2018 at 09:56:42
+2018-08-10 21:56:42 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 10/08/2018 at 09:56:42
+2018-08-10 21:56:42 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 34 ms
+2018-08-10 21:56:42 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-10 21:56:44 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/checkout?cartId=CA33053909B53793CBC934B0BEBBBC47
+2018-08-10 21:56:44 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 10/08/2018 at 09:56:44
+2018-08-10 21:56:44 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 10/08/2018 at 09:56:44
+2018-08-10 21:56:44 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 23 ms
+2018-08-10 21:56:44 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-10 21:56:44 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/checkout?execution=e3s1
+2018-08-10 21:56:44 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 10/08/2018 at 09:56:44
+2018-08-10 21:56:44 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 10/08/2018 at 09:56:44
+2018-08-10 21:56:44 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 63 ms
+2018-08-10 21:56:44 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-10 21:56:54 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/checkout?execution=e3s1
+2018-08-10 21:56:54 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 10/08/2018 at 09:56:54
+2018-08-10 21:56:54 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 10/08/2018 at 09:56:54
+2018-08-10 21:56:54 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 17 ms
+2018-08-10 21:56:54 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-10 21:56:54 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/checkout?execution=e3s2
+2018-08-10 21:56:54 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 10/08/2018 at 09:56:54
+2018-08-10 21:56:54 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 10/08/2018 at 09:56:54
+2018-08-10 21:56:54 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 38 ms
+2018-08-10 21:56:54 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-10 21:57:02 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/checkout?execution=e3s2
+2018-08-10 21:57:02 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 10/08/2018 at 09:57:02
+2018-08-10 21:57:02 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 10/08/2018 at 09:57:02
+2018-08-10 21:57:02 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 14 ms
+2018-08-10 21:57:02 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-10 21:57:02 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/checkout?execution=e3s3
+2018-08-10 21:57:02 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 10/08/2018 at 09:57:02
+2018-08-10 21:57:02 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 10/08/2018 at 09:57:02
+2018-08-10 21:57:02 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 15 ms
+2018-08-10 21:57:02 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-10 21:57:17 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/checkout?execution=e3s3
+2018-08-10 21:57:17 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 10/08/2018 at 09:57:17
+2018-08-10 21:57:17 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 10/08/2018 at 09:57:17
+2018-08-10 21:57:17 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 16 ms
+2018-08-10 21:57:17 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-10 21:57:17 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/checkout?execution=e3s4
+2018-08-10 21:57:17 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 10/08/2018 at 09:57:17
+2018-08-10 21:57:17 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 10/08/2018 at 09:57:17
+2018-08-10 21:57:17 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 8 ms
+2018-08-10 21:57:17 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-10 21:57:19 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/books
+2018-08-10 21:57:19 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 10/08/2018 at 09:57:19
+2018-08-10 21:57:19 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 10/08/2018 at 09:57:19
+2018-08-10 21:57:19 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 13 ms
+2018-08-10 21:57:19 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-10 21:59:09 INFO  XmlWebApplicationContext:873 - Closing WebApplicationContext for namespace 'DispatcherServlet-servlet': startup date [Fri Aug 10 21:51:39 EDT 2018]; parent: Root WebApplicationContext
+2018-08-10 21:59:09 INFO  GenericWebApplicationContext:873 - Closing Flow ApplicationContext [checkout]: startup date [Fri Aug 10 21:51:54 EDT 2018]; parent: WebApplicationContext for namespace 'DispatcherServlet-servlet'
+2018-08-10 21:59:09 INFO  XmlWebApplicationContext:873 - Closing Root WebApplicationContext: startup date [Fri Aug 10 21:51:34 EDT 2018]; root of context hierarchy

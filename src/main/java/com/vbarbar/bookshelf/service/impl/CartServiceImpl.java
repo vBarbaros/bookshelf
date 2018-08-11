@@ -5,6 +5,7 @@ import org.springframework.stereotype.Service;
 
 import com.vbarbar.bookshelf.domain.Cart;
 import com.vbarbar.bookshelf.domain.repository.CartRepository;
+import com.vbarbar.bookshelf.exception.InvalidCartException;
 //import com.vbarbar.bookshelf.exception.InvalidCartException;
 import com.vbarbar.bookshelf.service.CartService;
 
@@ -31,13 +32,14 @@ public class CartServiceImpl implements CartService{
 		
 	}
 	
-//	public Cart validate(String cartId) {
-//		Cart cart = cartRepository.read(cartId);
-//		if(cart==null || cart.getCartItems().size()==0) {
-//			throw new InvalidCartException(cartId);
-//		} 
-//		
-//		return cart;
-//	}
+	public Cart validate(String cartId) {
+		Cart cart = cartRepository.read(cartId);
+	
+		if(cart==null || cart.getCartItems().size()==0) {
+			throw new InvalidCartException(cartId);
+		} 
+	
+		return cart;
+	}
 
 }

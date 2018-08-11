@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flow xmlns="http://www.springframework.org/schema/webflow"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/webflow
+							http://www.springframework.org/schema/webflow/spring-webflow.xsd">
+
+	<var name="order" class="com.vbarbar.bookshelf.domain.Order" />
+
+	<action-state id="addCartToOrder">
+		<evaluate expression="cartServiceImpl.validate(requestParameters.cartId)"
+			result="order.cart" />
+		<transition to="InvalidCartWarning"
+			on-exception="com.vbarbar.bookshelf.exception.InvalidCartException" />
+		<transition to="collectReaderInfo" />
+	</action-state>
+
+	<view-state id="collectReaderInfo" view="collectReaderInfo.jsp" model="order">
+		<transition on="readerInfoCollected" to="collectShippingDetail" />
+	</view-state>
+
+	<view-state id="collectShippingDetail" model="order">
+		<transition on="shippingDetailCollected" to="orderConfirmation" />
+		<transition on="backToCollectReaderInfo" to="collectReaderInfo" />
+	</view-state>
+
+	<view-state id="orderConfirmation">
+		<transition on="orderConfirmed" to="processOrder" />
+		<transition on="backToCollectShippingDetail" to="collectShippingDetail" />
+	</view-state>
+	
+	<action-state id="processOrder">
+		<evaluate expression="orderServiceImpl.saveOrder(order)" result="order.orderId"/>
+		<transition to="thankReader" />
+	</action-state>
+	
+	<view-state id="InvalidCartWarning">
+		<transition to="endState"/>
+	</view-state>
+	
+	<view-state id="thankReader" model="order">
+		<transition to="endState"/>
+	</view-state>
+
+	<end-state id="endState"/>	
+
+	<end-state id="cancelCheckout" view = "checkOutCancelled.jsp"/>		
+	
+	<global-transitions>
+		<transition on = "cancel" to="endState" />
+	</global-transitions>
+
+</flow>
