@@ -2111,3 +2111,74 @@
 2018-08-10 22:35:24 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 10/08/2018 at 10:35:24
 2018-08-10 22:35:24 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 8 ms
 2018-08-10 22:35:24 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-11 21:16:51 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-11 21:16:52 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/books
+2018-08-11 21:16:52 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 11/08/2018 at 09:16:52
+2018-08-11 21:16:52 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 11/08/2018 at 09:16:52
+2018-08-11 21:16:52 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 286 ms
+2018-08-11 21:16:52 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-11 21:16:52 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/resource/images/B0002.png
+2018-08-11 21:16:52 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/resource/images/B0001.png
+2018-08-11 21:16:52 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 11/08/2018 at 09:16:52
+2018-08-11 21:16:52 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 11/08/2018 at 09:16:52
+2018-08-11 21:16:52 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 11/08/2018 at 09:16:52
+2018-08-11 21:16:52 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 11/08/2018 at 09:16:52
+2018-08-11 21:16:52 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 13 ms
+2018-08-11 21:16:52 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 13 ms
+2018-08-11 21:16:52 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-11 21:16:52 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-11 21:16:52 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/resource/images/B0003.png
+2018-08-11 21:16:52 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 11/08/2018 at 09:16:52
+2018-08-11 21:16:52 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 11/08/2018 at 09:16:52
+2018-08-11 21:16:52 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 4 ms
+2018-08-11 21:16:52 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-11 21:16:55 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/books
+2018-08-11 21:16:55 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 11/08/2018 at 09:16:55
+2018-08-11 21:16:55 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 11/08/2018 at 09:16:55
+2018-08-11 21:16:55 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 21 ms
+2018-08-11 21:16:55 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-11 21:16:57 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/books/
+2018-08-11 21:16:57 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 11/08/2018 at 09:16:57
+2018-08-11 21:16:57 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 11/08/2018 at 09:16:57
+2018-08-11 21:16:57 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 12 ms
+2018-08-11 21:16:57 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-11 21:17:00 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/login
+2018-08-11 21:17:00 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 11/08/2018 at 09:17:00
+2018-08-11 21:17:00 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 11/08/2018 at 09:17:00
+2018-08-11 21:17:00 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 20 ms
+2018-08-11 21:17:00 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-11 21:17:02 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/books/add
+2018-08-11 21:17:02 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 11/08/2018 at 09:17:02
+2018-08-11 21:17:02 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 11/08/2018 at 09:17:02
+2018-08-11 21:17:02 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 297 ms
+2018-08-11 21:17:02 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-11 21:17:15 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/cart/
+2018-08-11 21:17:15 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 11/08/2018 at 09:17:15
+2018-08-11 21:17:15 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 11/08/2018 at 09:17:15
+2018-08-11 21:17:15 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 17 ms
+2018-08-11 21:17:15 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-11 21:17:15 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/cart/C3D4FC697B7DEAAF8C03E1019076C33E
+2018-08-11 21:17:15 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 11/08/2018 at 09:17:15
+2018-08-11 21:17:15 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 11/08/2018 at 09:17:15
+2018-08-11 21:17:16 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 30 ms
+2018-08-11 21:17:16 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-11 21:17:16 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/resource/js/controllers.js
+2018-08-11 21:17:16 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 11/08/2018 at 09:17:16
+2018-08-11 21:17:16 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 11/08/2018 at 09:17:16
+2018-08-11 21:17:16 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 29 ms
+2018-08-11 21:17:16 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-11 21:17:16 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/rest/cart/C3D4FC697B7DEAAF8C03E1019076C33E
+2018-08-11 21:17:16 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 11/08/2018 at 09:17:16
+2018-08-11 21:17:16 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 11/08/2018 at 09:17:16
+2018-08-11 21:17:16 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 6 ms
+2018-08-11 21:17:16 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-11 21:17:21 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/books
+2018-08-11 21:17:21 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 11/08/2018 at 09:17:21
+2018-08-11 21:17:21 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 11/08/2018 at 09:17:21
+2018-08-11 21:17:21 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 43 ms
+2018-08-11 21:17:21 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-11 21:17:27 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/
+2018-08-11 21:17:27 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 11/08/2018 at 09:17:27
+2018-08-11 21:17:27 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 11/08/2018 at 09:17:27
+2018-08-11 21:17:27 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 20 ms
+2018-08-11 21:17:27 INFO  PerformanceMonitorInterceptor:38 - =======================================================

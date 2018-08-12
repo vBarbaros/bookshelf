@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" output="target/classes" path="src/main/java">
+	<classpathentry output="target/classes" kind="src" path="src/main/java">
 		<attributes>
 			<attribute name="optional" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+	<classpathentry excluding="**" output="target/classes" kind="src" path="src/main/resources">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+	<classpathentry output="target/test-classes" kind="src" path="src/test/java">
 		<attributes>
 			<attribute name="optional" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
@@ -23,10 +23,463 @@
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+	<classpathentry kind="output" path="bin/default"/>
+	<classpathentry output="bin/main" kind="src" path="src/main/java">
 		<attributes>
-			<attribute name="owner.project.facets" value="java"/>
+			<attribute name="gradle_scope" value="main"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="output" path="target/classes"/>
+	<classpathentry output="bin/main" kind="src" path="src/main/resources">
+		<attributes>
+			<attribute name="gradle_scope" value="main"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8/"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/org.springframework.webflow/spring-webflow/2.3.3.RELEASE/1a6b2441a9e6d6540d53e73ea5bc783e35bf8aa6/spring-webflow-2.3.3.RELEASE-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/org.springframework.webflow/spring-webflow/2.3.3.RELEASE/425460b7dbe85cd88cc352e5e33b9b26178e04e8/spring-webflow-2.3.3.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/org.springframework.webflow/spring-js/2.3.3.RELEASE/65e4f588c560be06762559eba4d8d0232601a112/spring-js-2.3.3.RELEASE-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/org.springframework.webflow/spring-js/2.3.3.RELEASE/312487d97072840d3c131c0f6f7b635792b4f20a/spring-js-2.3.3.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.0.3.RELEASE/99a774311815b9b34da8314cc85e9a3ee1e7614e/spring-webmvc-4.0.3.RELEASE-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.0.3.RELEASE/d6fd9778619ab87a41ae3aa879a53ee60f160c08/spring-webmvc-4.0.3.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/javax.servlet/jstl/1.2/2f5877ef15adb721421e80f5aa2b6fe069eec8ed/jstl-1.2-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/javax.servlet/jstl/1.2/74aca283cd4f4b4f3e425f5820cda58f44409547/jstl-1.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-web/3.1.4.RELEASE/2b929ad26ad779af343590ac6227821f9aa69e9a/spring-security-web-3.1.4.RELEASE-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-web/3.1.4.RELEASE/56d52794df838d0bc3ccbc149a62ea019946f82a/spring-security-web-3.1.4.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/commons-fileupload/commons-fileupload/1.2.2/8c269e2558e16ae7bab69df299d51f291a09eea0/commons-fileupload-1.2.2-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/commons-fileupload/commons-fileupload/1.2.2/1e48256a2341047e7d729217adeec8217f6e3a1a/commons-fileupload-1.2.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/org.springframework/spring-oxm/4.0.3.RELEASE/6ea4ab77e311832f68d7166c93f59aa09d0230c3/spring-oxm-4.0.3.RELEASE-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/org.springframework/spring-oxm/4.0.3.RELEASE/e446b707245acfb8cd1933be835d5532c7606246/spring-oxm-4.0.3.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/org.codehaus.jackson/jackson-mapper-asl/1.9.10/d2d207a972606685f9d57ae8e38c8b3eb1f5e824/jackson-mapper-asl-1.9.10-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/org.codehaus.jackson/jackson-mapper-asl/1.9.10/deb47197f1adc0cebe9bfc5548e900100c771396/jackson-mapper-asl-1.9.10.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.12/57b8740427ee6d7b0b60792751356cad17dc0d9/log4j-1.2.12.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-validator/4.3.1.Final/baa1c6895a34d8d6423da93d09cb3bed665b1b24/hibernate-validator-4.3.1.Final-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-validator/4.3.1.Final/49b31d8ea51fa21cc78a89e9d4ddb11d6bfb4669/hibernate-validator-4.3.1.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-extras/3.0.3/3ac4ed80bd788516f0c751dd4068ec2f3e954f33/tiles-extras-3.0.3-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-extras/3.0.3/1e3bbabf1f924cf2f20f3163e237d303a6ad12f2/tiles-extras-3.0.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-el/3.0.3/2a8ef625f4d2f731bc0c874fb70d0709d126da82/tiles-el-3.0.3-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-el/3.0.3/4f9382508f2456025d70fd2491791dbd7394726d/tiles-el-3.0.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-mvel/3.0.3/20762535ca6996fd20cd8de1113b920a3a1c2674/tiles-mvel-3.0.3-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-mvel/3.0.3/645a82b9323702898183f0a14f3b91dc2c226c4e/tiles-mvel-3.0.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-ognl/3.0.3/ada95ed4dd07bc863a5e2ed9e4ecbfa139760d38/tiles-ognl-3.0.3-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-ognl/3.0.3/105a549083935ca6e9cc7880cc01f9539456a9a6/tiles-ognl-3.0.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-compat/3.0.3/77edd76183bbbd4b682d97bbb6cf5d19314d4e35/tiles-compat-3.0.3-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-compat/3.0.3/4309795900a6bc14a1f7f7022a568a30712f267c/tiles-compat-3.0.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-jsp/3.0.3/a440a2c8752b8b868b278d94918ce3545725ae72/tiles-jsp-3.0.3-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-jsp/3.0.3/87ef2d1d5f5313fba23433df4a214235bc87ec3/tiles-jsp-3.0.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-freemarker/3.0.3/cb721ac6243536f621e46ac2cdf515aac55b6369/tiles-freemarker-3.0.3-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-freemarker/3.0.3/94b4bc50fb6d658d18a18157cb7e96fe4e60cb63/tiles-freemarker-3.0.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-velocity/3.0.3/86795da1a5bc7d8e3350e5a6c15ad5cc8e1404bc/tiles-velocity-3.0.3-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-velocity/3.0.3/dfa5fc95328e065623d4f765cdee175ff3bd3bf8/tiles-velocity-3.0.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-servlet/3.0.3/22a436f0f9ce061aa57e4e73e56eb613ff328fe9/tiles-servlet-3.0.3-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-servlet/3.0.3/20717b4f5ad4943f468cb2350a112f49fb518425/tiles-servlet-3.0.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-core/3.0.3/dee311e94994a1e7b29c134c672380029d39ab14/tiles-core-3.0.3-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-core/3.0.3/2cba57c1e93f87b75f297f8e009c9926fa49ae89/tiles-core-3.0.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/1.5.8/cf690456d5e91fc2632a243ca53ea7a3ab56fa77/jcl-over-slf4j-1.5.8-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/1.5.8/ab78d75b7ae41770779502cc81ee4bf9c8fac6aa/jcl-over-slf4j-1.5.8.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.5/654135274d4c27132ea208a4ec07f344bdb83bcb/slf4j-api-1.7.5-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.5/6b262da268f8ad9eff941b25503a9198f0a0ac93/slf4j-api-1.7.5.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-config/3.1.4.RELEASE/ccbdeed20bf2a9ac89b11603217733a167310b64/spring-security-config-3.1.4.RELEASE-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-config/3.1.4.RELEASE/196e312b9c05118c814de71eafa9c603bef3617b/spring-security-config-3.1.4.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.1.0/ab3976d4574c48d22dc1abf6a9e8bd0fdf928223/javax.servlet-api-3.1.0-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.1.0/3cd63d075497751784b2fa84be59432f4905bf7c/javax.servlet-api-3.1.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-request-servlet-wildcard/1.0.3/831a451d75c9612744464adb90f411c80439354e/tiles-request-servlet-wildcard-1.0.3-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-request-servlet-wildcard/1.0.3/1c887a4dd6462729a99a4136a44b0c05d3873930/tiles-request-servlet-wildcard-1.0.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.0.3.RELEASE/35ff7e39f712a7fba8e1cde344f8f9e2ca3a439c/spring-web-4.0.3.RELEASE-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.0.3.RELEASE/4d5066f31ea4b9c58957bf8c0c213b13ed44c1c5/spring-web-4.0.3.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/3.0.7.RELEASE/f8d21447241bc7a5298ea838135c7de68eac2f4f/spring-jdbc-3.0.7.RELEASE-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/3.0.7.RELEASE/c53d9bf4e6a6a6cf49c7d7630e612042364295a1/spring-jdbc-3.0.7.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/3.0.7.RELEASE/79194ce07a854e95767080806b4ea3327e2a438d/spring-tx-3.0.7.RELEASE-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/3.0.7.RELEASE/c340bf8606f6bf235bc1277d25315df1abe51c31/spring-tx-3.0.7.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/3.1.4.RELEASE/3c7d209bcc32fc6f2242f58295a9789a870d59f9/spring-security-core-3.1.4.RELEASE-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/3.1.4.RELEASE/41af4a10d7e31722bd8ef2c101f60afb6c24e04b/spring-security-core-3.1.4.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/org.springframework.webflow/spring-binding/2.3.3.RELEASE/ce2f90d79623e059edceecc1625700296bfa975a/spring-binding-2.3.3.RELEASE-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/org.springframework.webflow/spring-binding/2.3.3.RELEASE/6c75016259fc43c8f1de2934d8670f33962baea9/spring-binding-2.3.3.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.0.3.RELEASE/b71c2baa9bdf23951bb730f42cf27259317d83c4/spring-context-4.0.3.RELEASE-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.0.3.RELEASE/782a71a312dc307fa531023aa66247b9b4a109d/spring-context-4.0.3.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.0.3.RELEASE/78f4f26931a651f8236758b449355fe9204d96c1/spring-aop-4.0.3.RELEASE-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.0.3.RELEASE/dcedf5329d7092d66cc9d2496687a5f29d883eb6/spring-aop-4.0.3.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.0.3.RELEASE/c0324f7c7a33ce6fb2d3543ba811828a8f68350e/spring-beans-4.0.3.RELEASE-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.0.3.RELEASE/41eabd53fd4ba5ba2b2d8af6c256a3741f65c2f3/spring-beans-4.0.3.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.0.3.RELEASE/dac3409a856fadefc7ad36cdc78d2b13af398ef2/spring-expression-4.0.3.RELEASE-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.0.3.RELEASE/40b25b3a693cb4cc382ddf2e69ff1b29c75a2e7d/spring-expression-4.0.3.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.0.3.RELEASE/ddd76a3c9e1e1957d81b5294859f67d7fd0c104b/spring-core-4.0.3.RELEASE-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.0.3.RELEASE/138d28200d97f4affe9ccaa47fab54718b438319/spring-core-4.0.3.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/4a4b6d692e17846a9f3da036438a7ac491d3c814/aopalliance-1.0-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/235ba8b489512805ac13a8f9ea77a1ca5ebe3e8/aopalliance-1.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/1.3.2/b41a5f39fa90007a6c247175933555ba5f166d70/commons-io-1.3.2-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/1.3.2/b6dde38349ba9bb5e6ea6320531eae969985dae5/commons-io-1.3.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/org.codehaus.jackson/jackson-core-asl/1.9.10/55d16f20242827b71fab7949c128b7ec97822b70/jackson-core-asl-1.9.10-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/org.codehaus.jackson/jackson-core-asl/1.9.10/45ff5b12fba27586a2885d420a712c2ffa41c548/jackson-core-asl-1.9.10.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/1.0.0.GA/7a561191db2203550fbfa40d534d4997624cd369/validation-api-1.0.0.GA-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/1.0.0.GA/b6bd7f9d78f6fdaa3c37dae18a4bd298915f328e/validation-api-1.0.0.GA.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.1.0.CR2/53dd1691828c99b7e7b353c9b0ad374fe7d73ef5/jboss-logging-3.1.0.CR2-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.1.0.CR2/28725380c07f917ace4e511db21cc45e9ae5a72b/jboss-logging-3.1.0.CR2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/28bb0405fddaf04f15058fbfbe01fe2780d7d3b6/commons-logging-1.1.3-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/opensymphony/ognl/2.6.11/12dfc2019d4ce5a30a48292f04f779074817bc1b/ognl-2.6.11-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/opensymphony/ognl/2.6.11/c3f31f4a65461c44e6697bf29070e638bef09d8/ognl-2.6.11.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-request-mustache/1.0.3/9010158f6c52456eb6316359952a6346c570c81/tiles-request-mustache-1.0.3-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-request-mustache/1.0.3/3811d7158e0694a2564a70f55417c77a59953e20/tiles-request-mustache-1.0.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/com.github.spullara.mustache.java/compiler/0.8.4/3ad193b18b758f51b519e69caa1f76296b1d5407/compiler-0.8.4-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/com.github.spullara.mustache.java/compiler/0.8.4/371619789a3d6f75c9960dc50de0099b10342816/compiler-0.8.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/12.0.1/7c344cc8f5d83f40c7af2c48b2d78cccefecec4e/guava-12.0.1-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/12.0.1/b8e78b9af7bf45900e14c6f958486b6ca682195f/guava-12.0.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/org.springframework.webflow/spring-js-resources/2.3.3.RELEASE/f1e5e701a3ffbaa6cff83d92f843eb920b1070e8/spring-js-resources-2.3.3.RELEASE-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/org.springframework.webflow/spring-js-resources/2.3.3.RELEASE/cac45badb993912a3c213f91136512101fb860dd/spring-js-resources-2.3.3.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-template/3.0.3/751430cd275bd4c03e9306f44fa332b0bb613931/tiles-template-3.0.3-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-template/3.0.3/326bd3c4f2b96d984f826736e338e0cc3c2fd6f5/tiles-template-3.0.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-api/3.0.3/634a949c1bb90e72693c0255bb357e23101ae4e1/tiles-api-3.0.3-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-api/3.0.3/423c0ec3642cc134f3cd6e636ca7833d489c8920/tiles-api-3.0.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/commons-digester/commons-digester/2.0/abc81a9857b4d396ec8093f023f42e06b01e975a/commons-digester-2.0-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/commons-digester/commons-digester/2.0/3dbd8a76683cd563583a2c78c356ad8b8acf38bf/commons-digester-2.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-request-jsp/1.0.3/41cc85a7a3fb7c1ddd623620f9afe7b422623bcd/tiles-request-jsp-1.0.3-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-request-jsp/1.0.3/15da0c6a475a01bb3a0ab8044fa100e6ec979ed6/tiles-request-jsp-1.0.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-request-freemarker/1.0.3/b42faf5c5c51501b650d6ed5aed0e9ebffea41be/tiles-request-freemarker-1.0.3-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-request-freemarker/1.0.3/df722232106151d34faf5f5b838065b1b09cbc65/tiles-request-freemarker-1.0.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-request-velocity/1.0.3/1b5826c1c050e81dcd6d9a89390995ff62630a9/tiles-request-velocity-1.0.3-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-request-velocity/1.0.3/8992c69c55d8e260b998404c7db025d82a67b4a1/tiles-request-velocity-1.0.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-request-servlet/1.0.3/c99ac12f1ee5612cf0f37be1cf8ab23f17db9bfd/tiles-request-servlet-1.0.3-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-request-servlet/1.0.3/d0f378718ee71ef240c34241d9f68cdad9aa1396/tiles-request-servlet-1.0.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-request-api/1.0.3/bc653d7c57f1a2dbdee22b6764b37f5f530eae47/tiles-request-api-1.0.3-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-request-api/1.0.3/94134f2b44c49d926c6a366ea5684e90165bd061/tiles-request-api-1.0.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/org.apache.velocity/velocity-tools/2.0/69936384de86857018b023a8c56ae0635c56b6a0/velocity-tools-2.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/org.mvel/mvel2/2.0.11/489b5ad87f47c821d25d2828e910529eba9d08c/mvel2-2.0.11-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/org.mvel/mvel2/2.0.11/14bb21dabd899d2e60d9c0d008f267ed0d6c9ea8/mvel2-2.0.11.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/ognl/ognl/2.7.3/8dd1d6ddf4d07d1434aa66279f2118f6d51cbb87/ognl-2.7.3-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/ognl/ognl/2.7.3/8c391fdc943b352045bd35c4f57306ccc6442f7c/ognl-2.7.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/1.3.9/40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf/jsr305-1.3.9.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/commons-beanutils/commons-beanutils/1.8.0/2818502bbb50bbcbd3f57e92a2bfe4d496f37688/commons-beanutils-1.8.0-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/commons-beanutils/commons-beanutils/1.8.0/c651d5103c649c12b20d53731643e5fffceb536/commons-beanutils-1.8.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-autotag-core-runtime/1.1.0/42692b999acc1f5d05f5af59af124c948d8cd048/tiles-autotag-core-runtime-1.1.0-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/org.apache.tiles/tiles-autotag-core-runtime/1.1.0/1fb6109d5bc35c7403a55d019e0e8cf8ec06b49e/tiles-autotag-core-runtime-1.1.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/org.freemarker/freemarker/2.3.15/7cadc18cb29466317e350795c3b986391fe7a98d/freemarker-2.3.15-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/org.freemarker/freemarker/2.3.15/c8cfe522476fcec8da5c980d58bf62d6ab0cf27c/freemarker-2.3.15.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/org.apache.velocity/velocity/1.6.2/1b470ec12a9b8aa69b0458a7e477dacb2cbdd6a0/velocity-1.6.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.1/fa095ef874374e5b2a11f8b06c26a5d68c7cb3a4/commons-collections-3.2.1-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.1/761ea405b9b37ced573d2df0d1e3a4e0f9edc668/commons-collections-3.2.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/oro/oro/2.0.8/3598e790ecd76ff7eb249853d4d00822ae1a5e71/oro-2.0.8-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/oro/oro/2.0.8/5592374f834645c4ae250f4c9fbb314c9369d698/oro-2.0.8.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/jboss/javassist/3.7.ga/89a9fc9f9f31a211779a7e945dfbd935871239f/javassist-3.7.ga-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/jboss/javassist/3.7.ga/6d271a67a1d8718bfb225ace5a25f1c09427c9f8/javassist-3.7.ga.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.4/2b8c4b3035e45520ef42033e823c7d33e4b4402c/commons-lang-2.4-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.4/16313e02a793435009f1e458fa4af5d879f6fb11/commons-lang-2.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/junit/junit/4.11/28e0ad201304e4a4abf999ca0570b7cffc352c3c/junit-4.11-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/junit/junit/4.11/4e031bb61df09069aeb2bffb4019e7a5034a4ee0/junit-4.11.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/4.0.3.RELEASE/299b643be8d3fcb0e4c8f574a7f93d032a8b146e/spring-test-4.0.3.RELEASE-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/4.0.3.RELEASE/76b870a5aa132b4c0dd78cd061feb3e1652cddd1/spring-test-4.0.3.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/com.jayway.jsonpath/json-path-assert/0.8.1/d88aed76e6d7c6d4f0acf20a018539e6a14548b/json-path-assert-0.8.1-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/com.jayway.jsonpath/json-path-assert/0.8.1/20e4b99c18d81f4f41309139480fad54b77fb434/json-path-assert-0.8.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-library/1.2.1/1383b904459901976f938df82b04db3050473347/hamcrest-library-1.2.1-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-library/1.2.1/b54856422a8b58f0fe61b3a762d024f5e6d0556d/hamcrest-library-1.2.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/com.jayway.jsonpath/json-path/0.8.1/feb75e085b9416a4d817d4dd4d1e5c7ed17d9e1b/json-path-0.8.1-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/com.jayway.jsonpath/json-path/0.8.1/fbcad75a02160def33c4359b24015cca2d91ccce/json-path-0.8.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/net.minidev/json-smart/1.1.1/29bec1d88866042dcfd32c8247744bb6ef9bbf54/json-smart-1.1.1-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/net.minidev/json-smart/1.1.1/24a2f903d25e004de30ac602c5b47f2d4e420a59/json-smart-1.1.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/victor/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.6/67313d715fbf0ea4fd0bdb69217fb77f807a8ce5/commons-lang-2.6-sources.jar" kind="lib" path="/Users/victor/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.6/ce1edb914c94ebc388f086c6827e8bdeec71ac2/commons-lang-2.6.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
 </classpath>
