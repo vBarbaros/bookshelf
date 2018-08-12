@@ -20,7 +20,7 @@
     <section class="container" ng-app="cartApp">
       <div class="row">
         <div class="col-md-6">
-		  <img src="<c:url value="/resource/images/${book.bookId}.png"></c:url>" alt="image"  style = "width:100%"/>
+		  <img src="<c:url value="/bookshelf/resource/images/${book.bookId}.png"></c:url>" alt="image"  style = "width:100%"/>
 		</div>
         <div class="col-md-6">
           <h3>${book.bookTitle}</h3>
