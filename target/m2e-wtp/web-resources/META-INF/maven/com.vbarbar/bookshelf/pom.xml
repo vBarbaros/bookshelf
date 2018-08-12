@@ -82,6 +82,11 @@
   		<artifactId>slf4j-api</artifactId>
   		<version>1.7.5</version>
   	</dependency>
+  	<dependency>
+  		<groupId>com.github.jsimone</groupId>
+  		<artifactId>webapp-runner</artifactId>
+  		<version>8.5.31.0</version>
+  	</dependency>
   </dependencies>
   <properties>
   	<maven.compiler.source>1.8</maven.compiler.source>
