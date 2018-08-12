@@ -21,7 +21,7 @@ import com.vbarbar.bookshelf.service.CartService;
 import com.vbarbar.bookshelf.service.BookService;
 
 @Controller
-@RequestMapping(value = "rest/cart")
+@RequestMapping(value = "/bookshelf/rest/cart")
 public class CartRestController {
 
 	@Autowired

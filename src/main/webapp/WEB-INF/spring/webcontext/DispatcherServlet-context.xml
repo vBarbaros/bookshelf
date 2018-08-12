@@ -12,7 +12,7 @@
     
     <mvc:annotation-driven enable-matrix-variables="true" validator="validator" />
     <context:component-scan base-package="com.vbarbar.bookshelf" />
-    <mvc:resources location="/resources/" mapping="/resource/**"/>
+    <mvc:resources location="/resources/" mapping="/bookshelf/resource/**"/>
      
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/views/" />

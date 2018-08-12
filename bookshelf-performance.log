@@ -2751,3 +2751,194 @@
 2018-08-12 18:44:52 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 12/08/2018 at 06:44:52
 2018-08-12 18:44:52 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 15 ms
 2018-08-12 18:44:52 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-12 18:59:26 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-12 18:59:28 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/
+2018-08-12 18:59:28 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 12/08/2018 at 06:59:28
+2018-08-12 18:59:28 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 12/08/2018 at 06:59:28
+2018-08-12 18:59:28 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 342 ms
+2018-08-12 18:59:28 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-12 18:59:37 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/books/
+2018-08-12 18:59:37 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 12/08/2018 at 06:59:37
+2018-08-12 18:59:37 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 12/08/2018 at 06:59:37
+2018-08-12 18:59:37 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 50 ms
+2018-08-12 18:59:37 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-12 18:59:39 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/books/book?id=B0002
+2018-08-12 18:59:39 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 12/08/2018 at 06:59:39
+2018-08-12 18:59:39 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 12/08/2018 at 06:59:39
+2018-08-12 18:59:39 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 36 ms
+2018-08-12 18:59:39 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-12 18:59:52 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/rest/cart/add/B0002
+2018-08-12 18:59:52 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 12/08/2018 at 06:59:52
+2018-08-12 18:59:52 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 12/08/2018 at 06:59:52
+2018-08-12 18:59:52 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 31 ms
+2018-08-12 18:59:52 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-12 18:59:52 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/rest/cart/undefined
+2018-08-12 18:59:52 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 12/08/2018 at 06:59:52
+2018-08-12 18:59:52 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 12/08/2018 at 06:59:52
+2018-08-12 18:59:52 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 10 ms
+2018-08-12 18:59:52 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-12 18:59:56 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/cart/
+2018-08-12 18:59:56 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 12/08/2018 at 06:59:56
+2018-08-12 18:59:56 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 12/08/2018 at 06:59:56
+2018-08-12 18:59:56 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 9 ms
+2018-08-12 18:59:56 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-12 18:59:56 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/cart/B0B8F9345BD1B1F900FAA8CEA6582650
+2018-08-12 18:59:56 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 12/08/2018 at 06:59:56
+2018-08-12 18:59:56 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 12/08/2018 at 06:59:56
+2018-08-12 18:59:56 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 20 ms
+2018-08-12 18:59:56 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-12 18:59:56 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/rest/cart/B0B8F9345BD1B1F900FAA8CEA6582650
+2018-08-12 18:59:56 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 12/08/2018 at 06:59:56
+2018-08-12 18:59:56 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 12/08/2018 at 06:59:56
+2018-08-12 18:59:56 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 217 ms
+2018-08-12 18:59:56 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-12 18:59:56 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/rest/cart/B0B8F9345BD1B1F900FAA8CEA6582650
+2018-08-12 18:59:56 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 12/08/2018 at 06:59:56
+2018-08-12 18:59:56 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 12/08/2018 at 06:59:56
+2018-08-12 18:59:56 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 6 ms
+2018-08-12 18:59:56 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-12 19:00:09 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/rest/cart/remove/B0002
+2018-08-12 19:00:09 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 12/08/2018 at 07:00:09
+2018-08-12 19:00:09 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 12/08/2018 at 07:00:09
+2018-08-12 19:00:09 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 4 ms
+2018-08-12 19:00:09 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-12 19:00:09 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/rest/cart/B0B8F9345BD1B1F900FAA8CEA6582650
+2018-08-12 19:00:09 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 12/08/2018 at 07:00:09
+2018-08-12 19:00:09 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 12/08/2018 at 07:00:09
+2018-08-12 19:00:09 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 11 ms
+2018-08-12 19:00:09 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-12 19:01:25 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-12 19:01:26 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /
+2018-08-12 19:01:26 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 12/08/2018 at 07:01:26
+2018-08-12 19:01:26 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 12/08/2018 at 07:01:26
+2018-08-12 19:01:26 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 256 ms
+2018-08-12 19:01:26 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-12 19:01:32 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /cart/
+2018-08-12 19:01:32 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 12/08/2018 at 07:01:32
+2018-08-12 19:01:32 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 12/08/2018 at 07:01:32
+2018-08-12 19:01:32 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 23 ms
+2018-08-12 19:01:32 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-12 19:01:32 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /cart/4A642CDF580A98278D1FC9673DCFB742
+2018-08-12 19:01:32 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 12/08/2018 at 07:01:32
+2018-08-12 19:01:32 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 12/08/2018 at 07:01:32
+2018-08-12 19:01:32 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 49 ms
+2018-08-12 19:01:32 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-12 19:01:32 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/resource/js/controllers.js
+2018-08-12 19:01:32 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 12/08/2018 at 07:01:32
+2018-08-12 19:01:32 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 12/08/2018 at 07:01:32
+2018-08-12 19:01:32 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 4 ms
+2018-08-12 19:01:32 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-12 19:03:19 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-12 19:03:20 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /cart/4A642CDF580A98278D1FC9673DCFB742
+2018-08-12 19:03:20 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 12/08/2018 at 07:03:20
+2018-08-12 19:03:20 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 12/08/2018 at 07:03:20
+2018-08-12 19:03:20 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 210 ms
+2018-08-12 19:03:20 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-12 19:03:20 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/resource/js/controllers.js
+2018-08-12 19:03:20 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 12/08/2018 at 07:03:20
+2018-08-12 19:03:20 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 12/08/2018 at 07:03:20
+2018-08-12 19:03:20 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 12 ms
+2018-08-12 19:03:20 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-12 19:03:35 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /books/
+2018-08-12 19:03:35 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 12/08/2018 at 07:03:35
+2018-08-12 19:03:35 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 12/08/2018 at 07:03:35
+2018-08-12 19:03:35 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 66 ms
+2018-08-12 19:03:35 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-12 19:03:37 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /books/book?id=B0002
+2018-08-12 19:03:37 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 12/08/2018 at 07:03:37
+2018-08-12 19:03:37 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 12/08/2018 at 07:03:37
+2018-08-12 19:03:37 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 21 ms
+2018-08-12 19:03:37 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-12 19:03:46 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /cart/
+2018-08-12 19:03:46 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 12/08/2018 at 07:03:46
+2018-08-12 19:03:46 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 12/08/2018 at 07:03:46
+2018-08-12 19:03:46 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 16 ms
+2018-08-12 19:03:46 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-12 19:03:46 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /cart/4A642CDF580A98278D1FC9673DCFB742
+2018-08-12 19:03:46 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 12/08/2018 at 07:03:46
+2018-08-12 19:03:46 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 12/08/2018 at 07:03:46
+2018-08-12 19:03:46 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 9 ms
+2018-08-12 19:03:46 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-12 19:03:59 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /books/
+2018-08-12 19:03:59 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 12/08/2018 at 07:03:59
+2018-08-12 19:03:59 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 12/08/2018 at 07:03:59
+2018-08-12 19:03:59 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 23 ms
+2018-08-12 19:03:59 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-12 19:04:01 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /books/book?id=B0002
+2018-08-12 19:04:01 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 12/08/2018 at 07:04:01
+2018-08-12 19:04:01 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 12/08/2018 at 07:04:01
+2018-08-12 19:04:01 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 11 ms
+2018-08-12 19:04:01 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-12 19:08:16 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-12 19:08:17 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /books
+2018-08-12 19:08:17 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 12/08/2018 at 07:08:17
+2018-08-12 19:08:17 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 12/08/2018 at 07:08:17
+2018-08-12 19:08:17 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 309 ms
+2018-08-12 19:08:17 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-12 19:08:21 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /books/book?id=B0002
+2018-08-12 19:08:21 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 12/08/2018 at 07:08:21
+2018-08-12 19:08:21 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 12/08/2018 at 07:08:21
+2018-08-12 19:08:21 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 69 ms
+2018-08-12 19:08:21 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-12 19:12:14 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-12 19:12:15 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /books/
+2018-08-12 19:12:15 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 12/08/2018 at 07:12:15
+2018-08-12 19:12:15 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 12/08/2018 at 07:12:15
+2018-08-12 19:12:15 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 271 ms
+2018-08-12 19:12:15 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-12 19:12:20 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /books/book?id=B0001
+2018-08-12 19:12:20 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 12/08/2018 at 07:12:20
+2018-08-12 19:12:20 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 12/08/2018 at 07:12:20
+2018-08-12 19:12:20 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 93 ms
+2018-08-12 19:12:20 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-12 19:16:08 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-12 19:16:09 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /books
+2018-08-12 19:16:09 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 12/08/2018 at 07:16:09
+2018-08-12 19:16:09 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 12/08/2018 at 07:16:09
+2018-08-12 19:16:10 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 340 ms
+2018-08-12 19:16:10 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-12 19:16:14 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /books/book?id=B0002
+2018-08-12 19:16:14 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 12/08/2018 at 07:16:14
+2018-08-12 19:16:14 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 12/08/2018 at 07:16:14
+2018-08-12 19:16:14 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 74 ms
+2018-08-12 19:16:14 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-12 19:16:17 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/rest/cart/add/B0002
+2018-08-12 19:16:17 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 12/08/2018 at 07:16:17
+2018-08-12 19:16:17 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 12/08/2018 at 07:16:17
+2018-08-12 19:16:17 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 18 ms
+2018-08-12 19:16:17 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-12 19:16:17 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/rest/cart/undefined
+2018-08-12 19:16:17 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 12/08/2018 at 07:16:17
+2018-08-12 19:16:17 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 12/08/2018 at 07:16:17
+2018-08-12 19:16:17 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 4 ms
+2018-08-12 19:16:17 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-12 19:16:35 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /cart/
+2018-08-12 19:16:35 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 12/08/2018 at 07:16:35
+2018-08-12 19:16:35 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 12/08/2018 at 07:16:35
+2018-08-12 19:16:35 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 17 ms
+2018-08-12 19:16:35 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-12 19:16:35 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /cart/4A642CDF580A98278D1FC9673DCFB742
+2018-08-12 19:16:35 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 12/08/2018 at 07:16:35
+2018-08-12 19:16:35 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 12/08/2018 at 07:16:35
+2018-08-12 19:16:35 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 33 ms
+2018-08-12 19:16:35 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-12 19:16:35 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/rest/cart/4A642CDF580A98278D1FC9673DCFB742
+2018-08-12 19:16:35 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 12/08/2018 at 07:16:35
+2018-08-12 19:16:36 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 12/08/2018 at 07:16:36
+2018-08-12 19:16:36 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 301 ms
+2018-08-12 19:16:36 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-12 19:16:36 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/rest/cart/4A642CDF580A98278D1FC9673DCFB742
+2018-08-12 19:16:36 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 12/08/2018 at 07:16:36
+2018-08-12 19:16:36 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 12/08/2018 at 07:16:36
+2018-08-12 19:16:36 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 19 ms
+2018-08-12 19:16:36 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-12 19:16:50 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /books/
+2018-08-12 19:16:50 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 12/08/2018 at 07:16:50
+2018-08-12 19:16:50 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 12/08/2018 at 07:16:50
+2018-08-12 19:16:50 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 11 ms
+2018-08-12 19:16:50 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-12 19:16:55 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /books
+2018-08-12 19:16:55 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 12/08/2018 at 07:16:55
+2018-08-12 19:16:55 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 12/08/2018 at 07:16:55
+2018-08-12 19:16:55 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 12 ms
+2018-08-12 19:16:55 INFO  PerformanceMonitorInterceptor:38 - =======================================================
