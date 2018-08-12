@@ -3,4 +3,4 @@
 <li><a href="<spring:url value="/books"/>">Home</a></li>
 <li><a href="<spring:url value="/books/"/>">Bookss</a></li>
 <li><a href="<spring:url value="/books/add"/>">Add Book</a></li>
-<li><a href="<spring:url value="/cart/"/>">Cart</a></li>
+<li><a href="<spring:url value="/cart/"/>">Carttrtrtrt</a></li>

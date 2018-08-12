@@ -1,1 +1,0 @@
-<p>&copy; Victor Barbaros 2018</p>
