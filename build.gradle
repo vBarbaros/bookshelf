@@ -27,16 +27,4 @@ apply plugin: 'war'
          'org.springframework:spring-test:4.0.3.RELEASE',
          'com.jayway.jsonpath:json-path-assert:0.8.1'
          
-         task stage(type:Copy, dependsOn: [clean, build]){
-         	from jar.archivePath
-         	into project.rootDir
-         	rename {
-         		'app.jar'
-         	}
-         }
-         stage.mustRunAfter(clean)
-         
-         clean << {
-         	project.file('app.jar').delete()
-         }
 }
