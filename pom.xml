@@ -82,14 +82,33 @@
   		<artifactId>slf4j-api</artifactId>
   		<version>1.7.5</version>
   	</dependency>
-  	<dependency>
-  		<groupId>com.github.jsimone</groupId>
-  		<artifactId>webapp-runner</artifactId>
-  		<version>7.0.82.0</version>
-  	</dependency>
   </dependencies>
   <properties>
   	<maven.compiler.source>1.8</maven.compiler.source>
   	<maven.compiler.target>1.8</maven.compiler.target>
   </properties>
+  <build>
+  	<plugins>
+  		<plugin>
+  			<groupId>org.apache.maven.plugins</groupId>
+  			<artifactId>maven-dependency-plugin</artifactId>
+  			<executions>
+                <execution>
+                    <phase>package</phase>
+                    <goals><goal>copy</goal></goals>
+                    <configuration>
+                        <artifactItems>
+                            <artifactItem>
+                                <groupId>com.github.jsimone</groupId>
+                                <artifactId>webapp-runner</artifactId>
+                                <version>7.0.82.0</version>
+                                <destFileName>webapp-runner.jar</destFileName>
+                            </artifactItem>
+                        </artifactItems>
+                    </configuration>
+                </execution>
+            </executions>
+  		</plugin>
+  	</plugins>
+  </build>
 </project>
