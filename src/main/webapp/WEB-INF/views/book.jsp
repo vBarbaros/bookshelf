@@ -19,11 +19,6 @@
           <p><strong>Available units in stock </strong> : ${book.unitsInStock}</p>
           <h4>${book.pricePerUnit} USD</h4>
           
-          <a href="<spring:url value="/bookshelf/books" />" class="btn btn- default">
-          	<span class="glyphicon-hand-left glyphicon"></span> 
-          	  Back to Main
-       	  </a>
-          
           <p ng-controller="cartCtrl">
 					<a href="#" class="btn btn-warning btn-large" ng-click="addToCart('${book.bookId}')"> 
 						<span class="glyphicon-shopping-cart glyphicon"></span> Order Now
