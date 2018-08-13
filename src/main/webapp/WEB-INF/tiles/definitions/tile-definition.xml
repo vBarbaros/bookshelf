@@ -15,29 +15,29 @@
 	
 	<definition name="welcome" extends="baseLayout">
 		<put-attribute name="title" value="Books" />
-		<put-attribute name="heading" value="Books" />
-		<put-attribute name="tagline" value="Available Books" />
+		<put-attribute name="heading" value="Bookshelf" />
+		<put-attribute name="tagline" value="Reading is a conversation. All books talk. But a good book listens as well..." />
 		<put-attribute name="content" value="/WEB-INF/views/books.jsp" />
 	</definition>
 	
 	<definition name="books" extends="baseLayout">
 		<put-attribute name="title" value="Books" />
-		<put-attribute name="heading" value="Books" />
-		<put-attribute name="tagline" value="Available Books" />
+		<put-attribute name="heading" value="Bookshelf" />
+		<put-attribute name="tagline" value="Some of the Amazing Books" />
 		<put-attribute name="content" value="/WEB-INF/views/books.jsp" />
 	</definition>
 	
 	<definition name="book" extends="baseLayout">
 		<put-attribute name="title" value="Book" />
-		<put-attribute name="heading" value="Books" />
-		<put-attribute name="tagline" value="Book" />
+		<put-attribute name="heading" value="Bookshelf" />
+		<put-attribute name="tagline" value="Book Details" />
 		<put-attribute name="content" value="/WEB-INF/views/book.jsp" />
 	</definition>
 	
 	<definition name="addBook" extends="baseLayout">
 		<put-attribute name="title" value="Book" />
-		<put-attribute name="heading" value="Book" />
-		<put-attribute name="tagline" value="Book" />
+		<put-attribute name="heading" value="Bookshelf" />
+		<put-attribute name="tagline" value="Add the New Book to the Bookshelf" />
 		<put-attribute name="content" value="/WEB-INF/views/addBook.jsp" />
 	</definition>
 	
@@ -51,7 +51,7 @@
 	<definition name="cart" extends="baseLayout">
 		<put-attribute name="title" value="Shpping Cart" />
 		<put-attribute name="heading" value="Cart" />
-		<put-attribute name="tagline" value="your shopping cart" />
+		<put-attribute name="tagline" value="Your Shopping Cart" />
 		<put-attribute name="content" value="/WEB-INF/views/cart.jsp" />
 	</definition>
 	
