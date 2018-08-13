@@ -2,22 +2,10 @@
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <html>
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="/bookshelf/resource/js/controllers.js"></script>
     <title>Books</title>
   </head>
   <body>
-    <section>
-      <div class="jumbotron">
-        <div class="container">
-          <h1>Books</h1>
-        </div>
-      </div>
-    </section>
-    <section class="container" ng-app="cartApp">
+    <section class="container" ng-app="cartApp" >
       <div class="row">
         <div class="col-md-6">
 		  <img src="<c:url value="/bookshelf/resource/images/${book.bookId}.png"></c:url>" alt="image"  style = "width:100%"/>
@@ -31,7 +19,7 @@
           <p><strong>Available units in stock </strong> : ${book.unitsInStock}</p>
           <h4>${book.pricePerUnit} USD</h4>
           
-          <a href="<spring:url value="/books" />" class="btn btn- default">
+          <a href="<spring:url value="/bookshelf/books" />" class="btn btn- default">
           	<span class="glyphicon-hand-left glyphicon"></span> 
           	  Back to Main
        	  </a>

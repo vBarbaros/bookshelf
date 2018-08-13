@@ -9,20 +9,7 @@
 <title>Books</title>
 </head>
 <body>
-	<section>
-		<div class="jumbotron">
-			<div class="container">
-				<h1>Books</h1>
-				<p>Add Books</p>
-			</div>
-			<a href="<c:url value="/j_spring_security_logout" />" class="btn btn-danger btn-mini pull-right">
-				Logout
-			</a>
-			<div class="pull-right" style="padding-right:50px">
-				<a href="?language=en" >English</a>|<a href="?language=ro" >Romanian</a>
-			</div>
-		</div>
-	</section>
+
 	<section class="container">
 		<form:form  modelAttribute="newBook" class="form-horizontal" enctype="multipart/form-data">
 			<fieldset>
@@ -109,6 +96,9 @@
 					<div class="col-lg-offset-2 col-sm-6 col-md-6 col-lg-6">
 						<input type="submit" id="btnAdd" class="btn btn-primary" value ="Add"/>
 					</div>
+					<a href="<c:url value="/j_spring_security_logout" />" class="btn btn-danger btn-mini pull-right">
+						Logout
+					</a>
 				</div>
 				
 			</fieldset>

@@ -4,19 +4,9 @@
 
 <html>
 	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-		<link rel="stylesheet"	href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
 		<title>Books</title>
 	</head>
 	<body>
-		<section>
-			<div class="jumbotron">
-				<div class="container">
-					<h1>Books</h1>
-					<p>Add books</p>
-				</div>
-			</div>
-		</section>
 		<div class="container">
     		<div class="row">
 				<div class="col-md-4 col-md-offset-4">
