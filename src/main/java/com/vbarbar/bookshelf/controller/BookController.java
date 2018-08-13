@@ -109,10 +109,10 @@ public class BookController {
 	
 		resetRootPath = this.getClass().getResource("/").getPath();
 		
-		resetRootPath = resetRootPath.substring(0, resetRootPath.lastIndexOf("/bookshelf"));
-		System.out.println("EHWInit#75:resetRootPath=" + resetRootPath);
-		resetRootPath = resetRootPath + "/bookshelf/src/main/webapp/resources/images/";
-		System.out.println("EHWInit#75:resetRootPath=" + resetRootPath);
+		//resetRootPath = resetRootPath.substring(0, resetRootPath.lastIndexOf("/bookshelf"));
+//		System.out.println("EHWInit#75:resetRootPath=" + resetRootPath);
+//		resetRootPath = resetRootPath + "/bookshelf/src/main/webapp/resources/images/";
+//		System.out.println("EHWInit#75:resetRootPath=" + resetRootPath);
 
 		if (bookImage!=null && !bookImage.isEmpty()) {
 			try {
