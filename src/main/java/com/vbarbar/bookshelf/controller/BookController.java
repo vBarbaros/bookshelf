@@ -4,6 +4,7 @@ import java.io.File;
 import java.util.List;
 import java.util.Map;
 
+import javax.servlet.ServletContext;
 import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
 
@@ -39,6 +40,9 @@ public class BookController {
 	
 	@Autowired
     private BookValidator bookValidator;
+	
+	@Autowired
+	ServletContext context;
 	
 	@RequestMapping
     public String list(Model model) {
@@ -100,13 +104,25 @@ public class BookController {
 		}
 		
 		MultipartFile bookImage = newBook.getBookImage();
-		String rootDirectory = request.getSession().getServletContext().getRealPath("/");
+		
+		String resetRootPath = ""; 
+	
+		resetRootPath = this.getClass().getResource("/").getPath();
+		
+		resetRootPath = resetRootPath.substring(0, resetRootPath.lastIndexOf("/bookshelf"));
+		System.out.println("EHWInit#75:resetRootPath=" + resetRootPath);
+		resetRootPath = resetRootPath + "/bookshelf/src/main/webapp/resources/images/";
+		System.out.println("EHWInit#75:resetRootPath=" + resetRootPath);
+
 		if (bookImage!=null && !bookImage.isEmpty()) {
 			try {
-				bookImage.transferTo(new File(rootDirectory.substring(0, 51) + 
-						"/bookshelf/src/main/webapp/resources/images/" + 
-						newBook.getBookId() + 
-						".png"));
+		        
+		        File filePath = new File(
+		        		resetRootPath + 
+		        		newBook.getBookId() + 
+		        		".png");
+		        bookImage.transferTo(filePath);
+		        
 		    } catch (Exception e) {
 		    	throw new RuntimeException("Book Image saving failed", e);
 		    } 
