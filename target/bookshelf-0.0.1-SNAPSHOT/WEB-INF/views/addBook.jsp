@@ -4,12 +4,10 @@
 
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<link rel="stylesheet"	href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
 <title>Books</title>
+
 </head>
 <body>
-
 	<section class="container">
 		<form:form  modelAttribute="newBook" class="form-horizontal" enctype="multipart/form-data">
 			<fieldset>
