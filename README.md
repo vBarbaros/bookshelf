@@ -3,14 +3,16 @@
 <table>
 <tr>
 <td>
-  A Spring-MVC webapp that demos the main components of an online bookstore.
+  A Spring-MVC webapp showcasing the implementation of the main components in an online bookstore.
 </td>
 </tr>
 </table>
 
 
 ## Site
+
 [bookshelf-production](https://bookshelf-vb.herokuapp.com/)
+
 [bookshelf-stagin](https://bookshelf-staging.herokuapp.com/)
 
 ### Landing Page (views to be added soon...)
