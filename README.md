@@ -9,11 +9,14 @@
 </table>
 
 
-## Site
+## Hosted 
 
-[bookshelf-production](https://bookshelf-vb.herokuapp.com/)
+- [Heroku](https://www.heroku.com/about) - Heroku is a container-based cloud Platform as a Service (PaaS).
 
-[bookshelf-stagin](https://bookshelf-staging.herokuapp.com/)
+- [Check bookshelf-staging instance](https://bookshelf-staging.herokuapp.com/)
+
+- [Check bookshelf-production instance](https://bookshelf-vb.herokuapp.com/)
+
 
 ### Landing Page (views to be added soon...)
 
@@ -48,6 +51,7 @@ Order Confiramtion & Receipt Page
 Thank You Page
 ![](http://bookshelf-vb.herokuapp.com/checkout?execution=e1s4)
 
+
 ### [Development](https://github.com/vBarbaros/bookshelf/blob/dev/CONTRIBUTING.md)
 Want to contribute? Great!
 
@@ -70,7 +74,7 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 
 ## Built with 
 
-- [Maven](https://maven.apache.org/index.html) - Apache Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information..
+- [Maven](https://maven.apache.org/index.html) - Apache Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information.
 
 
 ## To-do
