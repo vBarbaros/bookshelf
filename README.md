@@ -1,4 +1,4 @@
-# ![WebApp](https://bookshelf-vb.herokuapp.com/)
+# [WebApp](https://bookshelf-vb.herokuapp.com/)
 # Spring-MVC WebApp
 <table>
 <tr>
@@ -10,28 +10,29 @@
 
 
 ## Site
-https://bookshelf-vb.herokuapp.com/
+[bookshelf-production](https://bookshelf-vb.herokuapp.com/)
+[bookshelf-stagin](https://bookshelf-staging.herokuapp.com/)
 
-### Landing Page
+### Landing Page (views to be added soon...)
 
 ![](https://bookshelf-vb.herokuapp.com/books)
 
-### Authentication Page
+### Authentication Page (views to be added soon...)
 
 ![](http://bookshelf-vb.herokuapp.com/login)
 
-### Add New Book Form
+### Add New Book Form (views to be added soon...)
 
 ![](http://bookshelf-vb.herokuapp.com/books/add)
 
-### Book Details Page
+### Book Details Page (views to be added soon...)
 ![](http://bookshelf-vb.herokuapp.com/books/book?id=B0002)
 
-### Shopping Cart Page
+### Shopping Cart Page (views to be added soon...)
 
 ![](http://bookshelf-vb.herokuapp.com/cart/8E54562D60F0A33C7A10AB62AE253CC3)
 
-## Shopping & Checkout Flow
+## Shopping & Checkout Flow (views to be added soon...)
 
 Reader Details Page
 ![](http://bookshelf-vb.herokuapp.com/checkout?execution=e1s1)
@@ -45,7 +46,7 @@ Order Confiramtion & Receipt Page
 Thank You Page
 ![](http://bookshelf-vb.herokuapp.com/checkout?execution=e1s4)
 
-### Development
+### [Development](https://github.com/vBarbaros/bookshelf/blob/dev/CONTRIBUTING.md)
 Want to contribute? Great!
 
 To fix a bug or enhance an existing module, follow these steps:
@@ -77,6 +78,6 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 - (...to be added, there is always stuff that can be added);
 
 
-## [License]()
+## [License](https://github.com/vBarbaros/bookshelf/blob/dev/LICENSE)
 
 MIT © [Victor Barbaros](https://github.com/vBarbaros)
