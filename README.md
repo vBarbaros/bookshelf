@@ -1,5 +1,5 @@
-# [WebApp](https://bookshelf-vb.herokuapp.com/)
-# Spring-MVC WebApp
+# [Bookshelf](https://bookshelf-vb.herokuapp.com/)
+# Bookshelf WebApp
 <table>
 <tr>
 <td>
@@ -13,9 +13,9 @@
 
 - [Heroku](https://www.heroku.com/about) - Heroku is a container-based cloud Platform as a Service (PaaS).
 
-- [Check bookshelf-staging instance](https://bookshelf-staging.herokuapp.com/)
+- Check the [bookshelf-staging ](https://bookshelf-staging.herokuapp.com/)instance;
 
-- [Check bookshelf-production instance](https://bookshelf-vb.herokuapp.com/)
+- Check the [bookshelf-production ](https://bookshelf-vb.herokuapp.com/)instance;
 
 
 ### Landing Page (views to be added soon...)
