@@ -6485,3 +6485,128 @@
 2018-08-13 17:11:53 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 13/08/2018 at 05:11:53
 2018-08-13 17:11:54 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 382 ms
 2018-08-13 17:11:54 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-23 19:31:53 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 19:34:46 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 19:37:15 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 19:39:12 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 19:40:40 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 19:47:36 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 19:50:30 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 19:51:11 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 19:53:02 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 19:59:15 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 19:59:34 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 20:00:29 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 20:01:29 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 20:02:12 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 20:02:36 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 20:03:25 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 21:39:44 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 21:41:41 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 21:41:57 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 21:43:56 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 21:45:25 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 21:46:44 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 21:47:09 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 21:48:04 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 21:48:33 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 21:48:53 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 21:49:18 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 21:49:52 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 21:51:31 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 21:51:48 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 22:09:54 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 22:11:17 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 22:12:53 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 22:16:03 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 22:16:53 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 22:17:36 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 22:27:15 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 22:28:20 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 22:31:55 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 22:33:52 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 22:34:52 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 22:36:16 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 22:36:40 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 22:36:57 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 22:38:10 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 22:39:10 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 22:41:24 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 22:43:00 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 22:43:39 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 22:49:32 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 22:49:57 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 22:50:59 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 22:53:16 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 22:53:59 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 22:54:00 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /
+2018-08-23 22:54:00 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 23/08/2018 at 10:54:00
+2018-08-23 22:54:00 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 23/08/2018 at 10:54:00
+2018-08-23 22:54:03 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 2809 ms
+2018-08-23 22:54:03 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-23 22:54:03 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/resource/js/controllers.js
+2018-08-23 22:54:03 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 23/08/2018 at 10:54:03
+2018-08-23 22:54:03 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 23/08/2018 at 10:54:03
+2018-08-23 22:54:03 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 10 ms
+2018-08-23 22:54:03 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-23 22:54:25 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /books
+2018-08-23 22:54:25 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 23/08/2018 at 10:54:25
+2018-08-23 22:54:25 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 23/08/2018 at 10:54:25
+2018-08-23 22:54:26 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 97 ms
+2018-08-23 22:54:26 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-23 22:54:26 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/resource/images/B0001.png
+2018-08-23 22:54:26 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/resource/images/B0002.png
+2018-08-23 22:54:26 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 23/08/2018 at 10:54:26
+2018-08-23 22:54:26 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 23/08/2018 at 10:54:26
+2018-08-23 22:54:26 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 23/08/2018 at 10:54:26
+2018-08-23 22:54:26 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 17 ms
+2018-08-23 22:54:26 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-23 22:54:26 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 23/08/2018 at 10:54:26
+2018-08-23 22:54:26 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 25 ms
+2018-08-23 22:54:26 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-23 22:54:26 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/resource/images/B0003.png
+2018-08-23 22:54:26 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 23/08/2018 at 10:54:26
+2018-08-23 22:54:26 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 23/08/2018 at 10:54:26
+2018-08-23 22:54:26 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 22 ms
+2018-08-23 22:54:26 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-23 22:54:28 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /books/
+2018-08-23 22:54:28 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 23/08/2018 at 10:54:28
+2018-08-23 22:54:28 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 23/08/2018 at 10:54:28
+2018-08-23 22:54:28 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 17 ms
+2018-08-23 22:54:28 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-23 22:54:36 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /books/
+2018-08-23 22:54:36 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 23/08/2018 at 10:54:36
+2018-08-23 22:54:36 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 23/08/2018 at 10:54:36
+2018-08-23 22:54:36 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 18 ms
+2018-08-23 22:54:36 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-23 22:54:52 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /books/book?id=B0002
+2018-08-23 22:54:52 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 23/08/2018 at 10:54:52
+2018-08-23 22:54:52 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 23/08/2018 at 10:54:52
+2018-08-23 22:54:52 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 363 ms
+2018-08-23 22:54:52 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-23 22:55:03 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/rest/cart/add/B0002
+2018-08-23 22:55:03 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 23/08/2018 at 10:55:03
+2018-08-23 22:55:03 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 23/08/2018 at 10:55:03
+2018-08-23 22:55:03 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 48 ms
+2018-08-23 22:55:03 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-23 22:55:09 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/rest/cart/undefined
+2018-08-23 22:55:09 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 23/08/2018 at 10:55:09
+2018-08-23 22:55:09 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 23/08/2018 at 10:55:09
+2018-08-23 22:55:09 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 7 ms
+2018-08-23 22:55:09 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-23 22:55:09 INFO  PerformanceMonitorInterceptor:23 - Accessing URL path: /bookshelf/rest/cart/undefined
+2018-08-23 22:55:09 INFO  PerformanceMonitorInterceptor:24 - Request processing started on: 23/08/2018 at 10:55:09
+2018-08-23 22:55:09 INFO  PerformanceMonitorInterceptor:29 - Request processing ended on 23/08/2018 at 10:55:09
+2018-08-23 22:55:09 INFO  PerformanceMonitorInterceptor:36 - Total time taken for processing: 12 ms
+2018-08-23 22:55:09 INFO  PerformanceMonitorInterceptor:38 - =======================================================
+2018-08-23 22:58:32 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 22:59:20 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 22:59:57 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 23:00:34 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 23:02:51 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 23:11:42 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 23:18:43 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 23:19:49 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 23:21:37 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 23:22:10 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final
+2018-08-23 23:26:38 INFO  Version:27 - HV000001: Hibernate Validator 4.3.1.Final

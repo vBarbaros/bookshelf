@@ -1,0 +1,4 @@
+com/vbarbar/bookshelf/controller/CartRestControllerTest.class
+com/vbarbar/bookshelf/domain/CartItemTest.class
+com/vbarbar/bookshelf/controller/BookControllerTest.class
+com/vbarbar/bookshelf/validator/BookValidatorTest.class
