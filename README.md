@@ -22,35 +22,41 @@
 
 ![Home Page](bookshelf-screenshots/01-home.png)
 
-### Authentication Page (views to be added soon...)
+### Books Page
 
-![](http://bookshelf-vb.herokuapp.com/login)
+![Books Page](bookshelf-screenshots/02-books.png)
 
-### Add New Book Form (views to be added soon...)
+### Book Details Page
 
-![](http://bookshelf-vb.herokuapp.com/books/add)
+![Book Details Page](bookshelf-screenshots/03-book-details.png)
 
-### Book Details Page (views to be added soon...)
-![](http://bookshelf-vb.herokuapp.com/books/book?id=B0002)
+### Shopping Cart Page
 
-### Shopping Cart Page (views to be added soon...)
+![Add to Card Confirmation](bookshelf-screenshots/04-add-to-cart.png)
 
-![](http://bookshelf-vb.herokuapp.com/cart/8E54562D60F0A33C7A10AB62AE253CC3)
+## Shopping & Checkout Flow (Set of Pages)
 
-## Shopping & Checkout Flow (views to be added soon...)
+![Cart Details](bookshelf-screenshots/05-cart.png)
 
-Reader Details Page
-![](http://bookshelf-vb.herokuapp.com/checkout?execution=e1s1)
+![Costumer Details Form](bookshelf-screenshots/06-checkout-page-one.png)
 
-Shipping Details Page
-![](http://bookshelf-vb.herokuapp.com/checkout?execution=e1s2)
+![Shipping Details Form](bookshelf-screenshots/07-checkout-page-two.png)
 
-Order Confiramtion & Receipt Page
-![](http://bookshelf-vb.herokuapp.com/checkout?execution=e1s3)
+![Shipping Confirmation Page](bookshelf-screenshots/08-checkout-page-three.png)
 
-Thank You Page
-![](http://bookshelf-vb.herokuapp.com/checkout?execution=e1s4)
+![Thank You Page](bookshelf-screenshots/09-checkout-page-four.png)
 
+### Authentication Page
+
+![Login Page](bookshelf-screenshots/10-login.png)
+
+### Add New Book (Set of Pages)
+
+![Add New Book Form](bookshelf-screenshots/11-add-new-book.png)
+
+![New Book Added Confirmation](bookshelf-screenshots/12-new-book-added.png)
+
+![New Book Details](bookshelf-screenshots/13-new-book-details.png)
 
 ### [Development](https://github.com/vBarbaros/bookshelf/blob/dev/CONTRIBUTING.md)
 Want to contribute? Great!
