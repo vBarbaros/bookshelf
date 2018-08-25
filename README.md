@@ -28,34 +28,43 @@
 
 ### Book Details Page
 
+Book Details Page
 ![Book Details Page](bookshelf-screenshots/03-book-details.png)
 
-### Shopping Cart Page
-
+Add to Card Confirmation
 ![Add to Card Confirmation](bookshelf-screenshots/04-add-to-cart.png)
 
 ## Shopping & Checkout Flow (Set of Pages)
 
+Cart Details
 ![Cart Details](bookshelf-screenshots/05-cart.png)
 
+Costumer Details Form
 ![Costumer Details Form](bookshelf-screenshots/06-checkout-page-one.png)
 
+Shipping Details Form
 ![Shipping Details Form](bookshelf-screenshots/07-checkout-page-two.png)
 
+Shipping Confirmation Page
 ![Shipping Confirmation Page](bookshelf-screenshots/08-checkout-page-three.png)
 
+Thank You Page
 ![Thank You Page](bookshelf-screenshots/09-checkout-page-four.png)
 
 ### Authentication Page
 
+Login Page
 ![Login Page](bookshelf-screenshots/10-login.png)
 
 ### Add New Book (Set of Pages)
 
+Add New Book Form
 ![Add New Book Form](bookshelf-screenshots/11-add-new-book.png)
 
+New Book Added Confirmation
 ![New Book Added Confirmation](bookshelf-screenshots/12-new-book-added.png)
 
+New Book Details
 ![New Book Details](bookshelf-screenshots/13-new-book-details.png)
 
 ### [Development](https://github.com/vBarbaros/bookshelf/blob/dev/CONTRIBUTING.md)
