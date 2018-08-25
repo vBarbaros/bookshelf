@@ -18,9 +18,9 @@
 - Check the [bookshelf-production ](https://bookshelf-vb.herokuapp.com/)instance;
 
 
-### Landing Page (views to be added soon...)
+### Landing Page
 
-![](https://bookshelf-vb.herokuapp.com/books)
+![Home Page](bookshelf-screenshots/01-home.png)
 
 ### Authentication Page (views to be added soon...)
 
