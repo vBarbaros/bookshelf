@@ -102,7 +102,3 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 ## [License](https://github.com/vBarbaros/bookshelf/blob/dev/LICENSE)
 
 MIT © [Victor Barbaros](https://github.com/vBarbaros)
-=======
-# bookshelf
-=======
-# bookshelf
